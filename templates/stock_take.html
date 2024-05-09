@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Take</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Stock Take</h2>
+        <form id="stockTakeForm">
+            <div class="form-group">
+                <label for="categorySelect">Select Category:</label>
+                <select class="form-control" id="categorySelect" name="category">
+                    <option value="">All Categories</option>
+                    <option value="KP">Koleston Perfect</option>
+                    <option value="CT">Color Touch</option>
+                    <option value="SF">Shinefinity</option>
+                    <option value="IC">Illumina Color</option>
+                    <option value="BL">Blondor</option>
+                    <option value="DEV">Developer</option>
+                    <option value="CF">Color Fresh</option>
+                    <option value="CFC">Color Fresh Create</option>
+                    <option value="TG">True Grey</option>
+                    <option value="CR">Color Renew</option>
+                </select>
+            </div>
+            <div id="productsTable" class="mt-4">
+                <!-- Products table will be inserted here -->
+            </div>
+        </form>
+    </div>
+
+    <!-- History Modal -->
+    <div class="modal fade" id="historyModal" tabindex="-1" aria-labelledby="historyModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="historyModalLabel">Quantity History</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" id="historyContent">
+            <!-- History data will be loaded here -->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $('#categorySelect').change(function() {
+                var selectedCategory = $(this).val();
+                $.ajax({
+                    url: '/api/products',
+                    type: 'GET',
+                    data: {category: selectedCategory},
+                    success: function(data) {
+                        var tableHtml = '<table class="table"><thead><tr><th>Name</th><th>Quantity</th><th>History</th><th>Action</th></tr></thead><tbody>';
+                        data.forEach(function(product) {
+                            tableHtml += '<tr>' +
+                                         '<td>' + product.name + '</td>' +
+                                         '<td><input type="number" class="form-control" name="quantity" value="' + product.quantity + '" data-id="' + product.id + '"></td>' +
+                                         '<td><button type="button" class="btn btn-info history-btn" data-id="' + product.id + '" data-toggle="modal" data-target="#historyModal">History</button></td>' +
+                                         '<td><button type="button" class="btn btn-primary update-btn" data-id="' + product.id + '" data-original-quantity="' + product.quantity + '">Update</button></td>' +
+                                         '</tr>';
+                        });
+                        tableHtml += '</tbody></table>';
+                        $('#productsTable').html(tableHtml);
+                    }
+                });
+            });
+
+            $(document).on('click', '.history-btn', function() {
+                var productId = $(this).data('id');
+                $.ajax({
+                    url: '/api/product_history',
+                    type: 'GET',
+                    data: {id: productId},
+                    success: function(historyData) {
+                        var historyHtml = '<ul class="list-group" style="max-height: 400px; overflow-y: auto;">'; // Added inline CSS for scroll
+                        historyData.reverse().forEach(function(change) {
+                            historyHtml += '<li class="list-group-item">Date: ' + change.datetime + ', Quantity: ' + change.quantity_history + '</li>';
+                        });
+                        historyHtml += '</ul>';
+                        $('#historyContent').html(historyHtml);
+                    }
+                });
+            });
+
+            $(document).on('click', '.update-btn', function() {
+                var btn = $(this);
+                var productId = btn.data('id');
+                var originalQuantity = btn.data('original-quantity');
+                var newQuantity = $('input[data-id="' + productId + '"]').val();
+                $.ajax({
+                    url: '/stock_take',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({id: productId, quantity: newQuantity, category: $('#categorySelect').val()}),
+                    success: function(response) {
+                        btn.after('<span class="text-success ml-2">Quantity updated ' + originalQuantity + ' -> ' + newQuantity + '</span>');
+                        setTimeout(function() { $('.text-success').fadeOut(); }, 3000);
+                    }
+                });
+            });
+
+        });
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

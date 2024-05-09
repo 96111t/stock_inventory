@@ -1,0 +1,186 @@
+{
+    "KP": [
+        {
+            "id": "1f8906d0-ddcf-4b62-8fa7-709ffce2f7bb",
+            "name": "10/0",
+            "quantity": 4,
+            "optimum_quantity": 5,
+            "changes": [
+                {
+                    "quantity_history": 3,
+                    "datetime": "2024-05-07 22:24:17"
+                },
+                {
+                    "quantity_history": 1,
+                    "datetime": "2024-05-08 21:58:34"
+                },
+                {
+                    "quantity_history": -2,
+                    "datetime": "2024-05-08 22:00:47"
+                },
+                {
+                    "quantity_history": 5,
+                    "datetime": "2024-05-08 22:05:11"
+                },
+                {
+                    "quantity_history": 2,
+                    "datetime": "2024-05-08 22:06:29"
+                },
+                {
+                    "quantity_history": 1,
+                    "datetime": "2024-05-08 22:06:34"
+                },
+                {
+                    "quantity_history": 2,
+                    "datetime": "2024-05-08 22:06:41"
+                },
+                {
+                    "quantity_history": 2,
+                    "datetime": "2024-05-08 22:25:21"
+                },
+                {
+                    "quantity_history": 3,
+                    "datetime": "2024-05-08 22:25:26"
+                },
+                {
+                    "quantity_history": 3,
+                    "datetime": "2024-05-08 22:30:03"
+                },
+                {
+                    "quantity_history": 3,
+                    "datetime": "2024-05-08 22:34:06"
+                },
+                {
+                    "quantity_history": 3,
+                    "datetime": "2024-05-08 22:38:26"
+                },
+                {
+                    "quantity_history": 4,
+                    "datetime": "2024-05-09 07:06:07"
+                }
+            ]
+        },
+        {
+            "id": "93045ae1-b979-4a81-87bc-0b552078c3f5",
+            "name": "10/03",
+            "quantity": 2,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_history": 2,
+                    "datetime": "2024-05-07 22:41:18"
+                }
+            ]
+        },
+        {
+            "id": "8386d0d6-c9e3-48de-9dd6-3194c97fe796",
+            "name": "10/1",
+            "quantity": 5,
+            "optimum_quantity": 5,
+            "changes": [
+                {
+                    "quantity_history": 5,
+                    "datetime": "2024-05-07 22:31:38"
+                }
+            ]
+        },
+        {
+            "id": "a9ce0e0f-c807-4ac4-812e-a0991a305495",
+            "name": "10/1",
+            "quantity": 5,
+            "optimum_quantity": 5,
+            "changes": [
+                {
+                    "quantity_history": 5,
+                    "datetime": "2024-05-07 22:32:36"
+                }
+            ]
+        },
+        {
+            "id": "675ef057-76fd-44d4-a82c-e1f56fb304d0",
+            "name": "10/1",
+            "quantity": 5,
+            "optimum_quantity": 5,
+            "changes": [
+                {
+                    "quantity_history": 5,
+                    "datetime": "2024-05-07 22:34:05"
+                }
+            ]
+        },
+        {
+            "id": "6b528b0d-5fb7-465b-b1f3-92d93b5019d0",
+            "name": "10/3",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_history": 2,
+                    "datetime": "2024-05-07 22:43:04"
+                }
+            ]
+        },
+        {
+            "id": "f2550816-48c1-4d9e-b71c-dc61b4afd043",
+            "name": "4/0",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_history": 2,
+                    "datetime": "2024-05-08 18:25:31"
+                }
+            ]
+        },
+        {
+            "id": "1f8d7eb9-149d-4aeb-8bae-829fbdfa43c9",
+            "name": "7/0",
+            "quantity": 3,
+            "optimum_quantity": 5,
+            "changes": [
+                {
+                    "quantity_history": 3,
+                    "datetime": "2024-05-08 18:25:50"
+                }
+            ]
+        }
+    ],
+    "CT": [
+        {
+            "id": "eadf32bf-fcce-4132-a314-06f85a591394",
+            "name": "10/0",
+            "quantity": 4,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_history": 4,
+                    "datetime": "2024-05-08 07:50:05"
+                }
+            ]
+        },
+        {
+            "id": "12761cc6-514d-413b-87f3-a4746f35960d",
+            "name": "8/0",
+            "quantity": 5,
+            "optimum_quantity": 10,
+            "changes": [
+                {
+                    "quantity_history": 5,
+                    "datetime": "2024-05-08 07:59:55"
+                }
+            ]
+        },
+        {
+            "id": "5a9b8b37-a2b4-4f28-8530-b1e55982d83d",
+            "name": "9/01",
+            "quantity": 3,
+            "optimum_quantity": 5,
+            "changes": [
+                {
+                    "quantity_history": 3,
+                    "datetime": "2024-05-08 07:50:27"
+                }
+            ]
+        }
+    ]
+}

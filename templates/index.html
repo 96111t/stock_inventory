@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        #productList {
+            max-height: 400px; /* Adjust based on your preference */
+            overflow-y: auto; /* Enables vertical scrollbar if content overflows */
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center">WINDLE LONDON</h2>
+        <h1 class="text-center">Colour Product Management</h1>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="d-flex flex-column">
+                    <a href="/stock_take" class="btn btn-success mb-2">Stock Take</a>
+                    <a href="/export_order_form" class="btn btn-warning mb-2">Export Order Form</a>
+                    <a href="/add" class="btn btn-primary mb-2">Add Product</a>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <form>
+                    <div class="form-group">
+                        <label for="categorySelect">Select Category:</label>
+                        <select class="form-control" id="categorySelect">
+                            <option value="">All Categories</option>
+                            <option value="KP">Koleston Perfect</option>
+                            <option value="CT">Color Touch</option>
+                            <option value="SF">Shinefinity</option>
+                            <option value="IC">Illumina Color</option>
+                            <option value="BL">Blondor</option>
+                            <option value="DEV">Developer</option>
+                            <option value="CF">Color Fresh</option>
+                            <option value="CFC">Color Fresh Create</option>
+                            <option value="TG">True Grey</option>
+                            <option value="CR">Color Renew</option>
+                        </select>
+                    </div>
+                </form>
+                <div id="productList">
+                    <!-- Dynamically generated list of products will go here -->
+                    <!-- This part will need to be dynamically updated based on the category selection -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+    $(document).ready(function() {
+        $('#categorySelect').change(function() {
+            var selectedCategory = $(this).val();
+            $.ajax({
+                url: '/api/products',
+                type: 'GET',
+                data: {category: selectedCategory},
+                success: function(data) {
+                    var productListHtml = '<table class="table"><thead><tr><th>Name</th><th>Quantity</th><th>Optimal Quantity</th><th>Missing Amount</th></tr></thead><tbody>';
+                    data.forEach(function(product) {
+                        var missingAmount = product.quantity - product.optimum_quantity;
+                        productListHtml += '<tr>' +
+                                           '<td>' + product.name + '</td>' +
+                                           '<td>' + product.quantity + '</td>' +
+                                           '<td>' + product.optimum_quantity + '</td>' +
+                                           '<td>' + (missingAmount < 0 ? '<span style="color: red;">' + missingAmount + '</span>' : '') + '</td>' +
+                                           '</tr>';
+                    });
+                    productListHtml += '</tbody></table>';
+                    $('#productList').html(productListHtml);
+                }
+            });
+        });
+    });
+    </script>
+</body>
+</html>
