@@ -129,6 +129,18 @@
             ]
         },
         {
+            "id": "7adb9b95-62e2-40c9-9948-ca346f0d79a2",
+            "name": "10/16",
+            "quantity": 3,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-09 10:12:53"
+                }
+            ]
+        },
+        {
             "id": "6b528b0d-5fb7-465b-b1f3-92d93b5019d0",
             "name": "10/3",
             "quantity": 2,
