@@ -3,7 +3,7 @@
         {
             "id": "1f8906d0-ddcf-4b62-8fa7-709ffce2f7bb",
             "name": "10/0",
-            "quantity": 3,
+            "quantity": 2,
             "optimum_quantity": 5,
             "changes": [
                 {
@@ -65,6 +65,10 @@
                 {
                     "quantity_history": 3,
                     "datetime": "2024-05-09 07:45:23"
+                },
+                {
+                    "quantity_history": 2,
+                    "datetime": "2024-05-09 09:48:20"
                 }
             ]
         },

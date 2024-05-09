@@ -43,6 +43,10 @@
                             <option value="CR">Color Renew</option>
                         </select>
                     </div>
+                    <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input" id="showOrderList">
+                        <label class="form-check-label" for="showOrderList">Show Order List</label>
+                    </div>
                 </form>
                 <div id="productList">
                     <!-- Dynamically generated list of products will go here -->
@@ -56,8 +60,9 @@
 
     <script>
     $(document).ready(function() {
-        $('#categorySelect').change(function() {
-            var selectedCategory = $(this).val();
+        function fetchAndDisplayProducts() {
+            var selectedCategory = $('#categorySelect').val();
+            var showOrderList = $('#showOrderList').is(':checked');
             $.ajax({
                 url: '/api/products',
                 type: 'GET',
@@ -66,18 +71,23 @@
                     var productListHtml = '<table class="table"><thead><tr><th>Name</th><th>Quantity</th><th>Optimal Quantity</th><th>Missing Amount</th></tr></thead><tbody>';
                     data.forEach(function(product) {
                         var missingAmount = product.quantity - product.optimum_quantity;
-                        productListHtml += '<tr>' +
-                                           '<td>' + product.name + '</td>' +
-                                           '<td>' + product.quantity + '</td>' +
-                                           '<td>' + product.optimum_quantity + '</td>' +
-                                           '<td>' + (missingAmount < 0 ? '<span style="color: red;">' + missingAmount + '</span>' : '') + '</td>' +
-                                           '</tr>';
+                        if (!showOrderList || missingAmount < 0) {
+                            productListHtml += '<tr>' +
+                                               '<td>' + product.name + '</td>' +
+                                               '<td>' + product.quantity + '</td>' +
+                                               '<td>' + product.optimum_quantity + '</td>' +
+                                               '<td>' + (missingAmount < 0 ? '<span style="color: red;">' + missingAmount + '</span>' : '') + '</td>' +
+                                               '</tr>';
+                        }
                     });
                     productListHtml += '</tbody></table>';
                     $('#productList').html(productListHtml);
                 }
             });
-        });
+        }
+
+        $('#categorySelect').change(fetchAndDisplayProducts);
+        $('#showOrderList').change(fetchAndDisplayProducts);
     });
     </script>
 </body>
