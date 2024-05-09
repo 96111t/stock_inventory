@@ -62,13 +62,13 @@
                     type: 'GET',
                     data: {category: selectedCategory},
                     success: function(data) {
-                        var tableHtml = '<table class="table"><thead><tr><th>Name</th><th>Quantity</th><th>History</th><th>Action</th></tr></thead><tbody>';
+                        var tableHtml = '<table class="table"><thead><tr><th>Name</th><th>Quantity</th><th>Update</th><th>History</th></tr></thead><tbody>';
                         data.forEach(function(product) {
                             tableHtml += '<tr>' +
                                          '<td>' + product.name + '</td>' +
                                          '<td><input type="number" class="form-control" name="quantity" value="' + product.quantity + '" data-id="' + product.id + '"></td>' +
-                                         '<td><button type="button" class="btn btn-info history-btn" data-id="' + product.id + '" data-toggle="modal" data-target="#historyModal">History</button></td>' +
                                          '<td><button type="button" class="btn btn-primary update-btn" data-id="' + product.id + '" data-original-quantity="' + product.quantity + '">Update</button></td>' +
+                                         '<td><button type="button" class="btn btn-info history-btn" data-id="' + product.id + '" data-toggle="modal" data-target="#historyModal">History</button></td>' +
                                          '</tr>';
                         });
                         tableHtml += '</tbody></table>';
@@ -97,16 +97,18 @@
             $(document).on('click', '.update-btn', function() {
                 var btn = $(this);
                 var productId = btn.data('id');
-                var originalQuantity = btn.data('original-quantity');
-                var newQuantity = $('input[data-id="' + productId + '"]').val();
+                var quantityInput = $('input[data-id="' + productId + '"]');
+                var newQuantity = quantityInput.val();
                 $.ajax({
                     url: '/stock_take',
                     type: 'POST',
                     contentType: 'application/json',
                     data: JSON.stringify({id: productId, quantity: newQuantity, category: $('#categorySelect').val()}),
                     success: function(response) {
-                        btn.after('<span class="text-success ml-2">Quantity updated ' + originalQuantity + ' -> ' + newQuantity + '</span>');
-                        setTimeout(function() { $('.text-success').fadeOut(); }, 3000);
+                        var updateMessage = '<span class="text-success ml-2" style="position: absolute; right: 10px;">Updated!</span>';
+                        quantityInput.closest('td').css('position', 'relative');
+                        quantityInput.after(updateMessage);
+                        setTimeout(function() { $('.text-success').fadeOut(); }, 2000);
                     }
                 });
             });

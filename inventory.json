@@ -3,7 +3,7 @@
         {
             "id": "1f8906d0-ddcf-4b62-8fa7-709ffce2f7bb",
             "name": "10/0",
-            "quantity": 4,
+            "quantity": 3,
             "optimum_quantity": 5,
             "changes": [
                 {
@@ -57,6 +57,14 @@
                 {
                     "quantity_history": 4,
                     "datetime": "2024-05-09 07:06:07"
+                },
+                {
+                    "quantity_history": 2,
+                    "datetime": "2024-05-09 07:30:13"
+                },
+                {
+                    "quantity_history": 3,
+                    "datetime": "2024-05-09 07:45:23"
                 }
             ]
         },
@@ -75,24 +83,32 @@
         {
             "id": "8386d0d6-c9e3-48de-9dd6-3194c97fe796",
             "name": "10/1",
-            "quantity": 5,
+            "quantity": 4,
             "optimum_quantity": 5,
             "changes": [
                 {
                     "quantity_history": 5,
                     "datetime": "2024-05-07 22:31:38"
+                },
+                {
+                    "quantity_history": 4,
+                    "datetime": "2024-05-09 07:50:12"
                 }
             ]
         },
         {
             "id": "a9ce0e0f-c807-4ac4-812e-a0991a305495",
             "name": "10/1",
-            "quantity": 5,
+            "quantity": 3,
             "optimum_quantity": 5,
             "changes": [
                 {
                     "quantity_history": 5,
                     "datetime": "2024-05-07 22:32:36"
+                },
+                {
+                    "quantity_history": 3,
+                    "datetime": "2024-05-09 07:45:39"
                 }
             ]
         },
