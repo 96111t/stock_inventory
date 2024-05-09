@@ -52,12 +52,22 @@ def add_product():
         data = read_data()
         product = request.form
         category = product['category']
+        product_name = product['name'].strip()  # Trim whitespace
+
+        # Check if the category exists and if the product name is unique within the category
         if category not in data:
             data[category] = []
+        else:
+            # Check for duplicate product names within the category
+            for existing_product in data[category]:
+                if existing_product['name'].lower() == product_name.lower():
+                    flash('Product name already exists in this category.', 'error')
+                    return redirect(url_for('add_product'))
+
         product_id = str(uuid.uuid4())
         new_product = {
             'id': product_id,
-            'name': product['name'],
+            'name': product_name,
             'quantity': int(product['quantity']),
             'optimum_quantity': int(product['optimum_quantity']),
             'changes': [{
