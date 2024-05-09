@@ -99,16 +99,17 @@
                 var productId = btn.data('id');
                 var quantityInput = $('input[data-id="' + productId + '"]');
                 var newQuantity = quantityInput.val();
+                var originalQuantity = btn.data('original-quantity');
                 $.ajax({
                     url: '/stock_take',
                     type: 'POST',
                     contentType: 'application/json',
                     data: JSON.stringify({id: productId, quantity: newQuantity, category: $('#categorySelect').val()}),
                     success: function(response) {
-                        var updateMessage = '<span class="text-success ml-2" style="position: absolute; right: 10px;">Updated!</span>';
+                        var updateMessage = '<span class="text-success ml-2" style="position: absolute; right: 10px;">Updated! ' + originalQuantity + ' -> ' + newQuantity + '</span>';
                         quantityInput.closest('td').css('position', 'relative');
                         quantityInput.after(updateMessage);
-                        setTimeout(function() { $('.text-success').fadeOut(); }, 2000);
+                        setTimeout(function() { $('.text-success').fadeOut(); }, 3000);
                     }
                 });
             });
