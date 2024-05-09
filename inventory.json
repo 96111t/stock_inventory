@@ -1,220 +1,246 @@
 {
     "KP": [
         {
-            "id": "1f8906d0-ddcf-4b62-8fa7-709ffce2f7bb",
-            "name": "10/0",
-            "quantity": 2,
-            "optimum_quantity": 5,
-            "changes": [
-                {
-                    "quantity_history": 3,
-                    "datetime": "2024-05-07 22:24:17"
-                },
-                {
-                    "quantity_history": 1,
-                    "datetime": "2024-05-08 21:58:34"
-                },
-                {
-                    "quantity_history": -2,
-                    "datetime": "2024-05-08 22:00:47"
-                },
-                {
-                    "quantity_history": 5,
-                    "datetime": "2024-05-08 22:05:11"
-                },
-                {
-                    "quantity_history": 2,
-                    "datetime": "2024-05-08 22:06:29"
-                },
-                {
-                    "quantity_history": 1,
-                    "datetime": "2024-05-08 22:06:34"
-                },
-                {
-                    "quantity_history": 2,
-                    "datetime": "2024-05-08 22:06:41"
-                },
-                {
-                    "quantity_history": 2,
-                    "datetime": "2024-05-08 22:25:21"
-                },
-                {
-                    "quantity_history": 3,
-                    "datetime": "2024-05-08 22:25:26"
-                },
-                {
-                    "quantity_history": 3,
-                    "datetime": "2024-05-08 22:30:03"
-                },
-                {
-                    "quantity_history": 3,
-                    "datetime": "2024-05-08 22:34:06"
-                },
-                {
-                    "quantity_history": 3,
-                    "datetime": "2024-05-08 22:38:26"
-                },
-                {
-                    "quantity_history": 4,
-                    "datetime": "2024-05-09 07:06:07"
-                },
-                {
-                    "quantity_history": 2,
-                    "datetime": "2024-05-09 07:30:13"
-                },
-                {
-                    "quantity_history": 3,
-                    "datetime": "2024-05-09 07:45:23"
-                },
-                {
-                    "quantity_history": 2,
-                    "datetime": "2024-05-09 09:48:20"
-                }
-            ]
-        },
-        {
-            "id": "93045ae1-b979-4a81-87bc-0b552078c3f5",
-            "name": "10/03",
-            "quantity": 2,
-            "optimum_quantity": 3,
-            "changes": [
-                {
-                    "quantity_history": 2,
-                    "datetime": "2024-05-07 22:41:18"
-                }
-            ]
-        },
-        {
-            "id": "8386d0d6-c9e3-48de-9dd6-3194c97fe796",
-            "name": "10/1",
+            "id": "b3601e19-788b-4d2e-863e-f54e52394831",
+            "name": "KP 10/0",
             "quantity": 4,
-            "optimum_quantity": 5,
-            "changes": [
-                {
-                    "quantity_history": 5,
-                    "datetime": "2024-05-07 22:31:38"
-                },
-                {
-                    "quantity_history": 4,
-                    "datetime": "2024-05-09 07:50:12"
-                }
-            ]
-        },
-        {
-            "id": "a9ce0e0f-c807-4ac4-812e-a0991a305495",
-            "name": "10/1",
-            "quantity": 3,
-            "optimum_quantity": 5,
-            "changes": [
-                {
-                    "quantity_history": 5,
-                    "datetime": "2024-05-07 22:32:36"
-                },
-                {
-                    "quantity_history": 3,
-                    "datetime": "2024-05-09 07:45:39"
-                }
-            ]
-        },
-        {
-            "id": "675ef057-76fd-44d4-a82c-e1f56fb304d0",
-            "name": "10/1",
-            "quantity": 5,
-            "optimum_quantity": 5,
-            "changes": [
-                {
-                    "quantity_history": 5,
-                    "datetime": "2024-05-07 22:34:05"
-                }
-            ]
-        },
-        {
-            "id": "7adb9b95-62e2-40c9-9948-ca346f0d79a2",
-            "name": "10/16",
-            "quantity": 3,
             "optimum_quantity": 4,
             "changes": [
                 {
-                    "quantity_change": 3,
-                    "datetime": "2024-05-09 10:12:53"
+                    "quantity_change": 4,
+                    "datetime": "2024-05-09 17:40:23"
                 }
             ]
         },
         {
-            "id": "6b528b0d-5fb7-465b-b1f3-92d93b5019d0",
-            "name": "10/3",
+            "id": "c24e4b01-b5b2-48c2-a5dc-783c3cedde1a",
+            "name": "KP 10/03",
             "quantity": 2,
             "optimum_quantity": 2,
             "changes": [
                 {
-                    "quantity_history": 2,
-                    "datetime": "2024-05-07 22:43:04"
+                    "quantity_change": 2,
+                    "datetime": "2024-05-09 17:40:46"
                 }
             ]
         },
         {
-            "id": "f2550816-48c1-4d9e-b71c-dc61b4afd043",
-            "name": "4/0",
+            "id": "60d5bf32-b6b9-4e1a-957c-041629e4f4b4",
+            "name": "KP 10/04",
             "quantity": 3,
-            "optimum_quantity": 2,
+            "optimum_quantity": 3,
             "changes": [
                 {
-                    "quantity_history": 2,
-                    "datetime": "2024-05-08 18:25:31"
-                },
-                {
-                    "quantity_history": 3,
-                    "datetime": "2024-05-09 07:58:08"
-                }
-            ]
-        },
-        {
-            "id": "1f8d7eb9-149d-4aeb-8bae-829fbdfa43c9",
-            "name": "7/0",
-            "quantity": 3,
-            "optimum_quantity": 5,
-            "changes": [
-                {
-                    "quantity_history": 3,
-                    "datetime": "2024-05-08 18:25:50"
+                    "quantity_change": 3,
+                    "datetime": "2024-05-09 17:41:11"
                 }
             ]
         }
     ],
-    "CT": [
+    "CFC": [
         {
-            "id": "eadf32bf-fcce-4132-a314-06f85a591394",
-            "name": "10/0",
+            "id": "2dc1c898-1704-43bc-9458-aeedb1a01871",
+            "name": "Future Yellow",
+            "quantity": 2,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-09 17:43:24"
+                }
+            ]
+        },
+        {
+            "id": "8e9a4b57-d1c4-4f28-ab8a-0a8397346aae",
+            "name": "High Magenta",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-09 17:43:43"
+                }
+            ]
+        },
+        {
+            "id": "6e02e0d0-4508-40b8-98ba-d6eb48655dc9",
+            "name": "Hyper Coral",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-09 17:44:03"
+                }
+            ]
+        },
+        {
+            "id": "bad3f615-078e-4a44-9028-278bddee7788",
+            "name": "Infinite Orange",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-09 17:44:20"
+                }
+            ]
+        },
+        {
+            "id": "03de247d-5692-47a8-be01-36ba0512fbbf",
+            "name": "Neverseen Green",
+            "quantity": 5,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 5,
+                    "datetime": "2024-05-09 17:44:44"
+                }
+            ]
+        },
+        {
+            "id": "2ac3ea96-8ba6-4aaf-9811-eea8c253610a",
+            "name": "New Blue",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-09 17:44:59"
+                }
+            ]
+        },
+        {
+            "id": "215072d0-0196-44e7-8be3-64a5cd312519",
+            "name": "Next Red",
+            "quantity": 4,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-09 17:45:15"
+                }
+            ]
+        },
+        {
+            "id": "da15a8ba-0c54-42b2-a024-5c746a592b61",
+            "name": "Nu-Dist Pink",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-09 17:45:32"
+                }
+            ]
+        },
+        {
+            "id": "d01c8f22-7474-4b6e-943b-c793d617b75b",
+            "name": "Pure Violet",
+            "quantity": 3,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-09 17:45:47"
+                }
+            ]
+        },
+        {
+            "id": "f5d63cf8-eaeb-4a8b-af9d-1aef8f5a62e8",
+            "name": "Super Petrol",
+            "quantity": 3,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-09 17:46:05"
+                }
+            ]
+        },
+        {
+            "id": "3ef4fb6b-5be8-4f3d-9375-7e9f03b2cef9",
+            "name": "Tomorrow Clear",
             "quantity": 4,
             "optimum_quantity": 4,
             "changes": [
                 {
-                    "quantity_history": 4,
-                    "datetime": "2024-05-08 07:50:05"
+                    "quantity_change": 4,
+                    "datetime": "2024-05-09 17:46:25"
                 }
             ]
         },
         {
-            "id": "12761cc6-514d-413b-87f3-a4746f35960d",
-            "name": "8/0",
-            "quantity": 5,
-            "optimum_quantity": 10,
+            "id": "080946c4-7205-4d2f-b7f0-bd52500503a9",
+            "name": "Tonight Dusk",
+            "quantity": 6,
+            "optimum_quantity": 2,
             "changes": [
                 {
-                    "quantity_history": 5,
-                    "datetime": "2024-05-08 07:59:55"
+                    "quantity_change": 6,
+                    "datetime": "2024-05-09 17:46:41"
                 }
             ]
         },
         {
-            "id": "5a9b8b37-a2b4-4f28-8530-b1e55982d83d",
-            "name": "9/01",
+            "id": "dfd50f07-bace-4941-8e9f-fc9847424360",
+            "name": "Uber Gold",
+            "quantity": 4,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-09 17:47:33"
+                }
+            ]
+        },
+        {
+            "id": "336190cd-4b22-45b5-8022-d627599cb5a8",
+            "name": "Ultra Purple",
+            "quantity": 4,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-09 17:47:49"
+                }
+            ]
+        },
+        {
+            "id": "7ff72185-899e-4618-9c53-5a2cf03c2976",
+            "name": "Vintage Brush",
             "quantity": 3,
-            "optimum_quantity": 5,
+            "optimum_quantity": 3,
             "changes": [
                 {
-                    "quantity_history": 3,
-                    "datetime": "2024-05-08 07:50:27"
+                    "quantity_change": 3,
+                    "datetime": "2024-05-09 17:48:05"
+                }
+            ]
+        }
+    ],
+    "CR": [
+        {
+            "id": "c70cf15f-dec4-402b-8dbc-8365ec91d1d0",
+            "name": "Activator Liquid 500ml",
+            "quantity": 4,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-09 18:07:04"
+                }
+            ]
+        },
+        {
+            "id": "eaadd17c-4a7c-4fbf-9c44-21280f6188b5",
+            "name": "Crystal Powder",
+            "quantity": 5,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 5,
+                    "datetime": "2024-05-09 18:06:40"
                 }
             ]
         }
