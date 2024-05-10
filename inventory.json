@@ -35,6 +35,18 @@
                     "datetime": "2024-05-09 17:41:11"
                 }
             ]
+        },
+        {
+            "id": "8a53420e-137b-4825-b187-9e570d71ff86",
+            "name": "KP 10/1",
+            "quantity": 4,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-10 16:07:57"
+                }
+            ]
         }
     ],
     "CFC": [
@@ -241,6 +253,116 @@
                 {
                     "quantity_change": 5,
                     "datetime": "2024-05-09 18:06:40"
+                }
+            ]
+        }
+    ],
+    "TG": [
+        {
+            "id": "97d436dd-5928-43ff-95bc-02f646a7f3bc",
+            "name": "Graphite Shimmer [Dark]",
+            "quantity": 5,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 5,
+                    "datetime": "2024-05-10 15:58:04"
+                }
+            ]
+        },
+        {
+            "id": "c7c5681a-e14a-489c-b259-c0e0474963e0",
+            "name": "Graphite Shimmer [Light]",
+            "quantity": 3,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-10 15:58:32"
+                }
+            ]
+        },
+        {
+            "id": "d3920f44-26a1-4dd2-bafb-afb6728a0528",
+            "name": "Graphite Shimmer [Medium]",
+            "quantity": 3,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-10 15:58:57"
+                }
+            ]
+        },
+        {
+            "id": "cca78b29-6f22-4a30-b6c6-1a145d2c98f2",
+            "name": "No.1 Activator",
+            "quantity": 17,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 17,
+                    "datetime": "2024-05-10 15:57:07"
+                }
+            ]
+        },
+        {
+            "id": "85888ab1-4d26-4829-959a-c038d43387f6",
+            "name": "No.2 Treatment",
+            "quantity": 11,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 11,
+                    "datetime": "2024-05-10 15:57:31"
+                }
+            ]
+        },
+        {
+            "id": "35d49c2f-4e89-41f8-9aea-a2333b485855",
+            "name": "Pearl Mist [Dark]",
+            "quantity": 4,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-10 15:59:17"
+                }
+            ]
+        },
+        {
+            "id": "da8426de-ee2a-4c71-a890-2741ae8be541",
+            "name": "Pearl Mist [Light]",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-10 15:59:38"
+                }
+            ]
+        },
+        {
+            "id": "c59996f3-5447-4ad6-aa70-3a5cf3787ecc",
+            "name": "Steel Glow [Dark]",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-10 16:00:05"
+                }
+            ]
+        },
+        {
+            "id": "e7241825-c787-4667-afc4-56846c935c52",
+            "name": "Steel Glow [Medium]",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-10 16:00:25"
                 }
             ]
         }
