@@ -13,10 +13,10 @@
         <h2>Login</h2>
         <form id="loginForm" action="/login" method="post">
             <div id="flash-message-container">
-                {% with messages = get_flashed_messages() %}
+                {% with messages = get_flashed_messages(with_categories=true) %}
                   {% if messages %}
-                    {% for message in messages %}
-                      <div class="alert alert-success" role="alert">{{ message }}</div>
+                    {% for category, message in messages %}
+                      <div class="alert alert-{{ 'danger' if category == 'danger' else 'success' }}" role="alert">{{ message }}</div>
                     {% endfor %}
                   {% endif %}
                 {% endwith %}
@@ -37,7 +37,7 @@
         $(document).ready(function() {
             setTimeout(function() {
                 $('.alert').fadeOut('slow');
-            }, 1500); // 2000 milliseconds = 2 seconds
+            }, 2000); // 2000 milliseconds = 2 seconds
         });
     </script>
 </body>

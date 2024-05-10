@@ -15,11 +15,6 @@ app.secret_key = 'stkcon'
 DATA_FILE = 'inventory.json'
 USERS_FILE = 'users.json'
 
-# # Ensure the data file exists
-# if not os.path.exists(DATA_FILE):
-#     with open(DATA_FILE, 'w') as file:
-#         json.dump({}, file)
-
 def read_data(file_path):
     with open(file_path, 'r') as file:
         return json.load(file)
@@ -33,8 +28,12 @@ def write_data(data):
     with open(DATA_FILE, 'w') as file:
         json.dump(data, file, indent=4)
 
-
-
+def log_user_activity(username, action):
+    log_entry = f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')} - {username} {action}\n"
+    with open('user_activity_log.txt', 'r+') as log_file:
+        current_contents = log_file.read()
+        log_file.seek(0)  # Move to the start of the file
+        log_file.write(log_entry + current_contents)  # Prepend the new log entry
 
 @app.route('/')
 def index():
@@ -60,25 +59,20 @@ def login():
 
         if username in users and users[username] == password:
             session['username'] = username
-            # flash('Login successful!', 'success')
-            return redirect(url_for('main'))  # Redirect to the main page after login
+            log_user_activity(username, 'logged in')  # Log the login activity
+            return redirect(url_for('main'))
         else:
             flash('Invalid username or password', 'danger')
 
     return render_template('login.html')
 
-
-
 @app.route('/logout')
 def logout():
+    username = session.get('username', 'Unknown')  # Handle cases where the username might not be in the session
     session.pop('username', None)
+    log_user_activity(username, 'logged out')  # Log the logout activity
     flash('You have been logged out.', 'success')
     return redirect(url_for('login'))
-
-
-
-
-
 
 def record_change(data, category, product_id, new_quantity):
     """Record the quantity with datetime."""
