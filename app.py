@@ -1,5 +1,5 @@
 from flask import (Flask, request, jsonify, render_template, flash, redirect,
-                   url_for, send_file)
+                   url_for, session, send_file)
 import json
 import os
 import uuid
@@ -13,21 +13,72 @@ app.secret_key = 'stkcon'
 
 # Path to your JSON file
 DATA_FILE = 'inventory.json'
+USERS_FILE = 'users.json'
 
-# Ensure the data file exists
-if not os.path.exists(DATA_FILE):
-    with open(DATA_FILE, 'w') as file:
-        json.dump({}, file)
+# # Ensure the data file exists
+# if not os.path.exists(DATA_FILE):
+#     with open(DATA_FILE, 'w') as file:
+#         json.dump({}, file)
 
-def read_data():
-    with open(DATA_FILE, 'r') as file:
+def read_data(file_path):
+    with open(file_path, 'r') as file:
         return json.load(file)
+
+def is_logged_in():
+    return 'username' in session
 
 def write_data(data):
     for category in data:
         data[category] = sorted(data[category], key=lambda x: x['name'])
     with open(DATA_FILE, 'w') as file:
         json.dump(data, file, indent=4)
+
+
+
+
+@app.route('/')
+def index():
+    # if not is_logged_in():
+    #     flash('Please log in to access this page.', 'warning')
+    #     # return redirect(url_for('login'))
+    return render_template('login.html')
+
+@app.route('/main')  # This is the new route for the main page
+def main():
+    if not is_logged_in():
+        # flash('Please log in to access this page.', 'warning')
+        return redirect(url_for('login'))
+    username = session['username'].capitalize()  # Capitalize the username
+    return render_template('index.html', username=username)
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        users = read_data(USERS_FILE)
+        username = request.form['username']
+        password = request.form['password']
+
+        if username in users and users[username] == password:
+            session['username'] = username
+            # flash('Login successful!', 'success')
+            return redirect(url_for('main'))  # Redirect to the main page after login
+        else:
+            flash('Invalid username or password', 'danger')
+
+    return render_template('login.html')
+
+
+
+@app.route('/logout')
+def logout():
+    session.pop('username', None)
+    flash('You have been logged out.', 'success')
+    return redirect(url_for('login'))
+
+
+
+
+
 
 def record_change(data, category, product_id, new_quantity):
     """Record the quantity with datetime."""
@@ -42,14 +93,14 @@ def record_change(data, category, product_id, new_quantity):
             product['quantity'] = new_quantity  # Update the quantity
             break
 
-@app.route('/')
-def index():
-    return render_template('index.html')
+# @app.route('/')
+# def index():
+#     return render_template('index.html')
 
 @app.route('/add', methods=['GET', 'POST'])
 def add_product():
     if request.method == 'POST':
-        data = read_data()
+        data = read_data(DATA_FILE)
         product = request.form
         category = product['category']
         product_name = product['name'].strip()  # Trim whitespace
@@ -81,10 +132,27 @@ def add_product():
         return redirect(url_for('add_product'))
     return render_template('add_product.html')
 
+# @app.route('/login', methods=['GET', 'POST'])
+# def login():
+#     if request.method == 'POST':
+#         username = request.form['username']
+#         password = request.form['password']
+#
+#         # Check if the username and password are valid (replace with your own logic)
+#         if username == 'admin' and password == 'password':
+#             # If the credentials are valid, redirect to the main page
+#             flash('Login successful!', 'success')
+#             return redirect(url_for('index'))
+#         else:
+#             # If the credentials are invalid, flash an error message and redisplay the login form
+#             flash('Invalid username or password', 'danger')
+#
+#     return render_template('login.html')
+
 @app.route('/stock_take', methods=['GET', 'POST'])
 def stock_take():
     if request.method == 'POST':
-        data = read_data()
+        data = read_data(DATA_FILE)
         updates = request.get_json()  # Change here to handle JSON data
         category = updates['category']
         product_id = updates['id']
@@ -96,7 +164,7 @@ def stock_take():
 
 @app.route('/export_order_form', methods=['GET'])
 def export_order_form():
-    data = read_data()
+    data = read_data(DATA_FILE)
     filename = f"order_form_{datetime.now().strftime('%Y-%m-%d')}.pdf"
     c = canvas.Canvas(filename, pagesize=letter)
     c.setFont("Helvetica", 12)
@@ -143,7 +211,7 @@ def export_order_form():
 @app.route('/api/products', methods=['GET'])
 def get_products_by_category():
     category = request.args.get('category', '')
-    data = read_data()
+    data = read_data(DATA_FILE)
     if category:
         filtered_products = data.get(category, [])
     else:
@@ -156,7 +224,7 @@ def get_products_by_category():
 @app.route('/api/product_history', methods=['GET'])
 def product_history():
     product_id = request.args.get('id')
-    data = read_data()
+    data = read_data(DATA_FILE)
     for category, products in data.items():
         for product in products:
             if product['id'] == product_id:

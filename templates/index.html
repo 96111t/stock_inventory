@@ -15,6 +15,12 @@
 </head>
 <body>
     <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <!-- Display the username here -->
+                <p class="text-right">Logged in as: <strong>{{ username }}</strong></p>
+            </div>
+        </div>
         <h2 class="text-center">WINDLE LONDON</h2>
         <h1 class="text-center">Colour Product Management</h1>
         <div class="row mt-4">
@@ -23,6 +29,7 @@
                     <a href="/stock_take" class="btn btn-success mb-2">Stock Take</a>
                     <a href="/export_order_form" class="btn btn-warning mb-2">Export Order Form</a>
                     <a href="/add" class="btn btn-primary mb-2">Add Product</a>
+                    <a href="/logout" class="btn btn-secondary mb-3">Logout</a>
                 </div>
             </div>
             <div class="col-md-8">
