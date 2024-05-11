@@ -8,7 +8,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
         #productList {
-            max-height: 400px; /* Adjust based on your preference */
+            max-height: 700px; /* Adjust based on your preference */
             overflow-y: auto; /* Enables vertical scrollbar if content overflows */
         }
     </style>
@@ -75,22 +75,25 @@
                 type: 'GET',
                 data: {category: selectedCategory},
                 success: function(data) {
-                    var productListHtml = '<table class="table"><thead><tr><th>Name</th><th>Quantity</th><th>Optimal Quantity</th><th>Missing Amount</th></tr></thead><tbody>';
-                    data.forEach(function(product) {
-                        var missingAmount = product.quantity - product.optimum_quantity;
-                        if (!showOrderList || missingAmount < 0) {
-                            productListHtml += '<tr>' +
-                                               '<td>' + product.name + '</td>' +
-                                               '<td>' + product.quantity + '</td>' +
-                                               '<td>' + product.optimum_quantity + '</td>' +
-                                               '<td>' + (missingAmount < 0 ? '<span style="color: red;">' + missingAmount + '</span>' : '') + '</td>' +
-                                               '</tr>';
-                        }
-                    });
-                    productListHtml += '</tbody></table>';
-                    $('#productList').html(productListHtml);
-                }
-            });
+                var productListHtml = '<table class="table"><thead><tr><th>Name</th><th>Quantity</th><th>Optimal Quantity</th><th>Missing Amount</th></tr></thead><tbody>';
+                data.forEach(function(product) {
+                    var missingAmount = product.quantity - product.optimum_quantity;
+                    // Split the product name and use the part after the colon
+                    var productNameParts = product.name.split(':');
+                    var productName = productNameParts.length > 1 ? productNameParts[1].trim() : productNameParts[0].trim();
+                    if (!showOrderList || missingAmount < 0) {
+                        productListHtml += '<tr>' +
+                                           '<td>' + productName + '</td>' +
+                                           '<td>' + product.quantity + '</td>' +
+                                           '<td>' + product.optimum_quantity + '</td>' +
+                                           '<td>' + (missingAmount < 0 ? '<span style="color: red;">' + missingAmount + '</span>' : '') + '</td>' +
+                                           '</tr>';
+                    }
+                });
+                productListHtml += '</tbody></table>';
+                $('#productList').html(productListHtml);
+            }
+                        });
         }
 
         $('#categorySelect').change(fetchAndDisplayProducts);

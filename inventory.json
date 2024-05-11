@@ -2,7 +2,7 @@
     "KP": [
         {
             "id": "b3601e19-788b-4d2e-863e-f54e52394831",
-            "name": "KP 10/0",
+            "name": "KP: 10/0",
             "quantity": 4,
             "optimum_quantity": 4,
             "changes": [
@@ -14,7 +14,7 @@
         },
         {
             "id": "c24e4b01-b5b2-48c2-a5dc-783c3cedde1a",
-            "name": "KP 10/03",
+            "name": "KP: 10/03",
             "quantity": 2,
             "optimum_quantity": 2,
             "changes": [
@@ -26,7 +26,7 @@
         },
         {
             "id": "60d5bf32-b6b9-4e1a-957c-041629e4f4b4",
-            "name": "KP 10/04",
+            "name": "KP: 10/04",
             "quantity": 3,
             "optimum_quantity": 3,
             "changes": [
@@ -38,7 +38,7 @@
         },
         {
             "id": "8a53420e-137b-4825-b187-9e570d71ff86",
-            "name": "KP 10/1",
+            "name": "KP: 10/1",
             "quantity": 4,
             "optimum_quantity": 4,
             "changes": [
@@ -47,12 +47,156 @@
                     "datetime": "2024-05-10 16:07:57"
                 }
             ]
+        },
+        {
+            "id": "b9359147-9242-40da-84aa-a6bc93e7c943",
+            "name": "KP: 10/16",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-10 16:19:41"
+                }
+            ]
+        },
+        {
+            "id": "bd410eaa-c3a9-475b-bf9b-b72378293461",
+            "name": "KP: 10/3",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-10 16:19:54"
+                }
+            ]
+        },
+        {
+            "id": "38c34bc7-fcdb-42b2-828d-b686d1bb3db6",
+            "name": "KP: 10/31",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-10 16:20:08"
+                }
+            ]
+        },
+        {
+            "id": "2d21747c-f6a0-464b-ac70-2a1c8510deab",
+            "name": "KP: 10/38",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-10 16:20:20"
+                }
+            ]
+        },
+        {
+            "id": "e18a8449-0a28-4364-b495-e0464eb145b0",
+            "name": "KP: 10/8",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-10 16:20:32"
+                }
+            ]
+        },
+        {
+            "id": "e6e1c668-256f-4b3e-bd53-3ac25e420439",
+            "name": "KP: 10/86",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-10 16:20:43"
+                }
+            ]
+        },
+        {
+            "id": "0c4625c7-2978-4265-b51b-e35922c5d720",
+            "name": "KP: 10/95",
+            "quantity": 3,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-10 16:20:56"
+                }
+            ]
+        },
+        {
+            "id": "55e04706-2716-4d9f-9d74-99bc2a463163",
+            "name": "KP: 10/96",
+            "quantity": 4,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-10 16:21:20"
+                }
+            ]
+        },
+        {
+            "id": "2f9cf571-4053-4a5c-8ad1-930c311bbe3f",
+            "name": "KP: 10/97",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-10 16:21:38"
+                }
+            ]
+        },
+        {
+            "id": "04dd728a-6a26-4128-addf-7ebdac185418",
+            "name": "KP: 2/0",
+            "quantity": 9,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 9,
+                    "datetime": "2024-05-10 16:21:59"
+                }
+            ]
+        },
+        {
+            "id": "d77d681e-cccd-4f40-8460-d403d7910e36",
+            "name": "KP: 33/0",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-10 16:22:22"
+                }
+            ]
+        },
+        {
+            "id": "81aecb55-4a5f-4571-957b-571350839695",
+            "name": "KP: 33/66",
+            "quantity": 4,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-10 16:22:53"
+                }
+            ]
         }
     ],
     "CFC": [
         {
             "id": "2dc1c898-1704-43bc-9458-aeedb1a01871",
-            "name": "Future Yellow",
+            "name": "CFC: Future Yellow",
             "quantity": 2,
             "optimum_quantity": 3,
             "changes": [
@@ -64,7 +208,7 @@
         },
         {
             "id": "8e9a4b57-d1c4-4f28-ab8a-0a8397346aae",
-            "name": "High Magenta",
+            "name": "CFC: High Magenta",
             "quantity": 2,
             "optimum_quantity": 2,
             "changes": [
@@ -76,7 +220,7 @@
         },
         {
             "id": "6e02e0d0-4508-40b8-98ba-d6eb48655dc9",
-            "name": "Hyper Coral",
+            "name": "CFC: Hyper Coral",
             "quantity": 2,
             "optimum_quantity": 2,
             "changes": [
@@ -88,7 +232,7 @@
         },
         {
             "id": "bad3f615-078e-4a44-9028-278bddee7788",
-            "name": "Infinite Orange",
+            "name": "CFC: Infinite Orange",
             "quantity": 2,
             "optimum_quantity": 2,
             "changes": [
@@ -100,7 +244,7 @@
         },
         {
             "id": "03de247d-5692-47a8-be01-36ba0512fbbf",
-            "name": "Neverseen Green",
+            "name": "CFC: Neverseen Green",
             "quantity": 5,
             "optimum_quantity": 2,
             "changes": [
@@ -112,7 +256,7 @@
         },
         {
             "id": "2ac3ea96-8ba6-4aaf-9811-eea8c253610a",
-            "name": "New Blue",
+            "name": "CFC: New Blue",
             "quantity": 2,
             "optimum_quantity": 2,
             "changes": [
@@ -124,7 +268,7 @@
         },
         {
             "id": "215072d0-0196-44e7-8be3-64a5cd312519",
-            "name": "Next Red",
+            "name": "CFC: Next Red",
             "quantity": 4,
             "optimum_quantity": 2,
             "changes": [
@@ -136,7 +280,7 @@
         },
         {
             "id": "da15a8ba-0c54-42b2-a024-5c746a592b61",
-            "name": "Nu-Dist Pink",
+            "name": "CFC: Nu-Dist Pink",
             "quantity": 3,
             "optimum_quantity": 3,
             "changes": [
@@ -148,7 +292,7 @@
         },
         {
             "id": "d01c8f22-7474-4b6e-943b-c793d617b75b",
-            "name": "Pure Violet",
+            "name": "CFC: Pure Violet",
             "quantity": 3,
             "optimum_quantity": 2,
             "changes": [
@@ -160,7 +304,7 @@
         },
         {
             "id": "f5d63cf8-eaeb-4a8b-af9d-1aef8f5a62e8",
-            "name": "Super Petrol",
+            "name": "CFC: Super Petrol",
             "quantity": 3,
             "optimum_quantity": 2,
             "changes": [
@@ -172,7 +316,7 @@
         },
         {
             "id": "3ef4fb6b-5be8-4f3d-9375-7e9f03b2cef9",
-            "name": "Tomorrow Clear",
+            "name": "CFC: Tomorrow Clear",
             "quantity": 4,
             "optimum_quantity": 4,
             "changes": [
@@ -184,7 +328,7 @@
         },
         {
             "id": "080946c4-7205-4d2f-b7f0-bd52500503a9",
-            "name": "Tonight Dusk",
+            "name": "CFC: Tonight Dusk",
             "quantity": 6,
             "optimum_quantity": 2,
             "changes": [
@@ -196,7 +340,7 @@
         },
         {
             "id": "dfd50f07-bace-4941-8e9f-fc9847424360",
-            "name": "Uber Gold",
+            "name": "CFC: Uber Gold",
             "quantity": 4,
             "optimum_quantity": 2,
             "changes": [
@@ -208,7 +352,7 @@
         },
         {
             "id": "336190cd-4b22-45b5-8022-d627599cb5a8",
-            "name": "Ultra Purple",
+            "name": "CFC: Ultra Purple",
             "quantity": 4,
             "optimum_quantity": 2,
             "changes": [
@@ -220,7 +364,7 @@
         },
         {
             "id": "7ff72185-899e-4618-9c53-5a2cf03c2976",
-            "name": "Vintage Brush",
+            "name": "CFC: Vintage Brush",
             "quantity": 3,
             "optimum_quantity": 3,
             "changes": [
@@ -234,7 +378,7 @@
     "CR": [
         {
             "id": "c70cf15f-dec4-402b-8dbc-8365ec91d1d0",
-            "name": "Activator Liquid 500ml",
+            "name": "CR: Activator Liquid 500ml",
             "quantity": 4,
             "optimum_quantity": 4,
             "changes": [
@@ -246,7 +390,7 @@
         },
         {
             "id": "eaadd17c-4a7c-4fbf-9c44-21280f6188b5",
-            "name": "Crystal Powder",
+            "name": "CR: Crystal Powder",
             "quantity": 5,
             "optimum_quantity": 4,
             "changes": [
@@ -260,7 +404,7 @@
     "TG": [
         {
             "id": "97d436dd-5928-43ff-95bc-02f646a7f3bc",
-            "name": "Graphite Shimmer [Dark]",
+            "name": "TG: Graphite Shimmer [Dark]",
             "quantity": 5,
             "optimum_quantity": 2,
             "changes": [
@@ -272,7 +416,7 @@
         },
         {
             "id": "c7c5681a-e14a-489c-b259-c0e0474963e0",
-            "name": "Graphite Shimmer [Light]",
+            "name": "TG: Graphite Shimmer [Light]",
             "quantity": 3,
             "optimum_quantity": 2,
             "changes": [
@@ -284,7 +428,7 @@
         },
         {
             "id": "d3920f44-26a1-4dd2-bafb-afb6728a0528",
-            "name": "Graphite Shimmer [Medium]",
+            "name": "TG: Graphite Shimmer [Medium]",
             "quantity": 3,
             "optimum_quantity": 2,
             "changes": [
@@ -296,7 +440,7 @@
         },
         {
             "id": "cca78b29-6f22-4a30-b6c6-1a145d2c98f2",
-            "name": "No.1 Activator",
+            "name": "TG: No.1 Activator",
             "quantity": 17,
             "optimum_quantity": 2,
             "changes": [
@@ -308,7 +452,7 @@
         },
         {
             "id": "85888ab1-4d26-4829-959a-c038d43387f6",
-            "name": "No.2 Treatment",
+            "name": "TG: No.2 Treatment",
             "quantity": 11,
             "optimum_quantity": 2,
             "changes": [
@@ -320,7 +464,7 @@
         },
         {
             "id": "35d49c2f-4e89-41f8-9aea-a2333b485855",
-            "name": "Pearl Mist [Dark]",
+            "name": "TG: Pearl Mist [Dark]",
             "quantity": 4,
             "optimum_quantity": 2,
             "changes": [
@@ -332,7 +476,7 @@
         },
         {
             "id": "da8426de-ee2a-4c71-a890-2741ae8be541",
-            "name": "Pearl Mist [Light]",
+            "name": "TG: Pearl Mist [Light]",
             "quantity": 2,
             "optimum_quantity": 2,
             "changes": [
@@ -344,7 +488,7 @@
         },
         {
             "id": "c59996f3-5447-4ad6-aa70-3a5cf3787ecc",
-            "name": "Steel Glow [Dark]",
+            "name": "TG: Steel Glow [Dark]",
             "quantity": 2,
             "optimum_quantity": 2,
             "changes": [
@@ -356,7 +500,7 @@
         },
         {
             "id": "e7241825-c787-4667-afc4-56846c935c52",
-            "name": "Steel Glow [Medium]",
+            "name": "TG: Steel Glow [Medium]",
             "quantity": 2,
             "optimum_quantity": 2,
             "changes": [
