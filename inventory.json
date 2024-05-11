@@ -510,5 +510,127 @@
                 }
             ]
         }
+    ],
+    "DEV": [
+        {
+            "id": "a2ebb57a-1bdd-4274-9943-02ac07b3c879",
+            "name": "DEV: Color Touch Emulsion 1.9% 1000ml",
+            "quantity": 7,
+            "optimum_quantity": 7,
+            "changes": [
+                {
+                    "quantity_change": 7,
+                    "datetime": "2024-05-11 10:05:34"
+                }
+            ]
+        },
+        {
+            "id": "789a3aaa-ae54-4fd3-b5d0-dac8ed1a8b2f",
+            "name": "DEV: Color Touch Emulsion 4% 1000ml",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-11 10:05:59"
+                }
+            ]
+        },
+        {
+            "id": "12c40c94-317c-4682-a139-5e8c86f13fc9",
+            "name": "DEV: Colour Touch Plus Emulsion 4% 1000ml",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-11 10:06:26"
+                }
+            ]
+        },
+        {
+            "id": "ca1ccc89-b6b0-4e71-841b-ed72234a257e",
+            "name": "DEV: Shinefinity for bottle",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-11 10:08:17"
+                }
+            ]
+        },
+        {
+            "id": "7ea13a36-f4d7-4b4e-ac6c-64e83749bcf5",
+            "name": "DEV: Shinefinity for brush & bowl",
+            "quantity": 1,
+            "optimum_quantity": 1,
+            "changes": [
+                {
+                    "quantity_change": 1,
+                    "datetime": "2024-05-11 10:08:40"
+                }
+            ]
+        },
+        {
+            "id": "e5b5bb4a-9dbf-438a-b932-ab6f2aa59f36",
+            "name": "DEV: Welloxon 12% 1000ml",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-11 10:09:06"
+                }
+            ]
+        },
+        {
+            "id": "c4489bdd-42dc-4736-9eea-951324950132",
+            "name": "DEV: Welloxon 4% 1000ml",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-11 10:09:25"
+                }
+            ]
+        },
+        {
+            "id": "caa57e87-21ca-446e-bf62-712ff2824336",
+            "name": "DEV: Welloxon 6% 1000ml",
+            "quantity": 6,
+            "optimum_quantity": 6,
+            "changes": [
+                {
+                    "quantity_change": 6,
+                    "datetime": "2024-05-11 10:09:44"
+                }
+            ]
+        },
+        {
+            "id": "848dfbfd-86b9-46cf-8ec5-ce2153402e0c",
+            "name": "DEV: Welloxon 9% 1000ml",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-11 10:10:03"
+                }
+            ]
+        },
+        {
+            "id": "c0354c40-7431-45c0-98cb-cddb64be0e24",
+            "name": "DEV: Welloxon Pastel 1000ml",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-11 10:10:21"
+                }
+            ]
+        }
     ]
 }
