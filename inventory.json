@@ -632,5 +632,175 @@
                 }
             ]
         }
+    ],
+    "BL": [
+        {
+            "id": "2b2dad43-bcf1-417a-be0a-c217912eb716",
+            "name": "BL: BlondoePlex Bleach",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-11 10:17:27"
+                }
+            ]
+        },
+        {
+            "id": "267dfe4e-1a8a-466f-85cb-1898085caefa",
+            "name": "BL: BlondorPlex Cream Toner /16",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-11 10:17:53"
+                }
+            ]
+        },
+        {
+            "id": "da56d021-a853-457f-b59c-d3f75535962e",
+            "name": "BL: BlondorPlex Cream Toner /36",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-11 10:18:06"
+                }
+            ]
+        },
+        {
+            "id": "e803171f-bdb6-4f54-af15-469c9895061e",
+            "name": "BL: BlondorPlex Cream Toner /81",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-11 10:18:20"
+                }
+            ]
+        },
+        {
+            "id": "c2d064b3-ff2a-4041-bb13-67c4fc42f0d3",
+            "name": "BL: BlondorPlex Cream Toner /86",
+            "quantity": 2,
+            "optimum_quantity": 1,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-11 10:18:34"
+                }
+            ]
+        },
+        {
+            "id": "65dff85d-e7f5-45ca-8188-1e3efd266f17",
+            "name": "BL: BlondorPlex Cream Toner /96",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-11 10:18:47"
+                }
+            ]
+        },
+        {
+            "id": "df9945af-b528-4536-a594-0b5553f31934",
+            "name": "BL: Freelights 12%",
+            "quantity": 5,
+            "optimum_quantity": 1,
+            "changes": [
+                {
+                    "quantity_change": 5,
+                    "datetime": "2024-05-11 10:14:23"
+                }
+            ]
+        },
+        {
+            "id": "15549cb3-a9cb-4249-b441-6cfa10f3c8fb",
+            "name": "BL: Freelights 6%",
+            "quantity": 4,
+            "optimum_quantity": 1,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-11 10:14:53"
+                }
+            ]
+        },
+        {
+            "id": "addaf246-2936-41d5-aad7-5239480fc72f",
+            "name": "BL: Freelights 9%",
+            "quantity": 1,
+            "optimum_quantity": 1,
+            "changes": [
+                {
+                    "quantity_change": 1,
+                    "datetime": "2024-05-11 10:15:16"
+                }
+            ]
+        },
+        {
+            "id": "40f5ddfb-da27-4766-8ecd-b1ac3a6f3cdc",
+            "name": "BL: Freelights Powder",
+            "quantity": 3,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-11 10:15:34"
+                }
+            ]
+        },
+        {
+            "id": "5fd94f1c-900a-42b3-9726-b4710b3a76ec",
+            "name": "BL: Powder (blue)",
+            "quantity": 5,
+            "optimum_quantity": 1,
+            "changes": [
+                {
+                    "quantity_change": 5,
+                    "datetime": "2024-05-11 10:16:01"
+                }
+            ]
+        },
+        {
+            "id": "9531c294-20ed-48e8-bdf2-66389c307a1a",
+            "name": "BL: Seal & Care",
+            "quantity": 1,
+            "optimum_quantity": 1,
+            "changes": [
+                {
+                    "quantity_change": 1,
+                    "datetime": "2024-05-11 10:16:19"
+                }
+            ]
+        },
+        {
+            "id": "3fdf3c6b-2f53-4a8d-971e-c95862bdc0a5",
+            "name": "BL: Soft Blonde Lightening Cream",
+            "quantity": 12,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 12,
+                    "datetime": "2024-05-11 10:16:42"
+                }
+            ]
+        },
+        {
+            "id": "63574d9b-9804-4dd7-be56-880e40d92da0",
+            "name": "BL: White Granule",
+            "quantity": 5,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 5,
+                    "datetime": "2024-05-11 10:17:05"
+                }
+            ]
+        }
     ]
 }
