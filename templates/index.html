@@ -27,9 +27,18 @@
             <div class="col-md-4">
                 <div class="d-flex flex-column">
                     <a href="/stock_take" class="btn btn-success mb-2">Stock Take</a>
-                    <a href="/export_order_form" class="btn btn-warning mb-2">Export Order Form</a>
                     <a href="/add" class="btn btn-primary mb-2">Add Product</a>
                     <a href="/logout" class="btn btn-secondary mb-3">Logout</a>
+                    <form action="/export_order_form" method="get" class="mt-3">
+                        <div class="form-group">
+                            <label for="fileType">Export Order Form as:</label>
+                            <select name="type" id="fileType" class="form-control">
+                                <option value="pdf">PDF</option>
+                                <option value="csv">CSV</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-warning">Export</button>
+                    </form>
                 </div>
             </div>
             <div class="col-md-8">
