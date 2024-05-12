@@ -97,7 +97,15 @@ def add_product():
         data = read_data(DATA_FILE)
         product = request.form
         category = product['category']
+        product_id = product['id'].strip()
         product_name = product['name'].strip()  # Trim whitespace
+
+        # Validate the provided ID for uniqueness
+        for existing_category, products in data.items():
+            for existing_product in products:
+                if existing_product['id'] == product_id:
+                    flash('Product ID already exists. Please use a unique ID.', 'error')
+                    return redirect(url_for('add_product'))
 
         # Check if the category exists and if the product name is unique within the category
         if category not in data:
@@ -109,7 +117,6 @@ def add_product():
                     flash('Product name already exists in this category.', 'error')
                     return redirect(url_for('add_product'))
 
-        product_id = str(uuid.uuid4())
         new_product = {
             'id': product_id,
             'name': product_name,
@@ -126,22 +133,6 @@ def add_product():
         return redirect(url_for('add_product'))
     return render_template('add_product.html')
 
-# @app.route('/login', methods=['GET', 'POST'])
-# def login():
-#     if request.method == 'POST':
-#         username = request.form['username']
-#         password = request.form['password']
-#
-#         # Check if the username and password are valid (replace with your own logic)
-#         if username == 'admin' and password == 'password':
-#             # If the credentials are valid, redirect to the main page
-#             flash('Login successful!', 'success')
-#             return redirect(url_for('index'))
-#         else:
-#             # If the credentials are invalid, flash an error message and redisplay the login form
-#             flash('Invalid username or password', 'danger')
-#
-#     return render_template('login.html')
 
 @app.route('/stock_take', methods=['GET', 'POST'])
 def stock_take():

@@ -1,804 +1,4244 @@
 {
     "KP": [
         {
-            "id": "b3601e19-788b-4d2e-863e-f54e52394831",
+            "id": "H8900-00100",
             "name": "KP: 10/0",
             "quantity": 4,
             "optimum_quantity": 4,
             "changes": [
                 {
                     "quantity_change": 4,
-                    "datetime": "2024-05-09 17:40:23"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "c24e4b01-b5b2-48c2-a5dc-783c3cedde1a",
+            "id": "H8900-01003",
             "name": "KP: 10/03",
             "quantity": 2,
             "optimum_quantity": 2,
             "changes": [
                 {
                     "quantity_change": 2,
-                    "datetime": "2024-05-09 17:40:46"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "60d5bf32-b6b9-4e1a-957c-041629e4f4b4",
+            "id": "H8900-01004",
             "name": "KP: 10/04",
             "quantity": 3,
             "optimum_quantity": 3,
             "changes": [
                 {
                     "quantity_change": 3,
-                    "datetime": "2024-05-09 17:41:11"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "8a53420e-137b-4825-b187-9e570d71ff86",
+            "id": "H8900-00101",
             "name": "KP: 10/1",
             "quantity": 4,
             "optimum_quantity": 4,
             "changes": [
                 {
                     "quantity_change": 4,
-                    "datetime": "2024-05-10 16:07:57"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "b9359147-9242-40da-84aa-a6bc93e7c943",
+            "id": "H8900-01016",
             "name": "KP: 10/16",
-            "quantity": 3,
+            "quantity": 2,
             "optimum_quantity": 3,
             "changes": [
                 {
-                    "quantity_change": 3,
-                    "datetime": "2024-05-10 16:19:41"
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "bd410eaa-c3a9-475b-bf9b-b72378293461",
+            "id": "H8900-00103",
             "name": "KP: 10/3",
             "quantity": 2,
             "optimum_quantity": 2,
             "changes": [
                 {
                     "quantity_change": 2,
-                    "datetime": "2024-05-10 16:19:54"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "38c34bc7-fcdb-42b2-828d-b686d1bb3db6",
+            "id": "H8900-01031",
             "name": "KP: 10/31",
             "quantity": 2,
             "optimum_quantity": 2,
             "changes": [
                 {
                     "quantity_change": 2,
-                    "datetime": "2024-05-10 16:20:08"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "2d21747c-f6a0-464b-ac70-2a1c8510deab",
+            "id": "H8900-01038",
             "name": "KP: 10/38",
             "quantity": 3,
             "optimum_quantity": 3,
             "changes": [
                 {
                     "quantity_change": 3,
-                    "datetime": "2024-05-10 16:20:20"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "e18a8449-0a28-4364-b495-e0464eb145b0",
+            "id": "H8900-00108",
             "name": "KP: 10/8",
             "quantity": 3,
             "optimum_quantity": 3,
             "changes": [
                 {
                     "quantity_change": 3,
-                    "datetime": "2024-05-10 16:20:32"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "e6e1c668-256f-4b3e-bd53-3ac25e420439",
+            "id": "H8900-01086",
             "name": "KP: 10/86",
             "quantity": 2,
             "optimum_quantity": 2,
             "changes": [
                 {
                     "quantity_change": 2,
-                    "datetime": "2024-05-10 16:20:43"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "0c4625c7-2978-4265-b51b-e35922c5d720",
+            "id": "H8900-01095",
             "name": "KP: 10/95",
             "quantity": 3,
             "optimum_quantity": 2,
             "changes": [
                 {
                     "quantity_change": 3,
-                    "datetime": "2024-05-10 16:20:56"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "55e04706-2716-4d9f-9d74-99bc2a463163",
+            "id": "H8900-01096",
             "name": "KP: 10/96",
             "quantity": 4,
             "optimum_quantity": 2,
             "changes": [
                 {
                     "quantity_change": 4,
-                    "datetime": "2024-05-10 16:21:20"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "2f9cf571-4053-4a5c-8ad1-930c311bbe3f",
+            "id": "H8900-01097",
             "name": "KP: 10/97",
             "quantity": 2,
             "optimum_quantity": 2,
             "changes": [
                 {
                     "quantity_change": 2,
-                    "datetime": "2024-05-10 16:21:38"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "04dd728a-6a26-4128-addf-7ebdac185418",
+            "id": "H8900-00020",
             "name": "KP: 2/0",
-            "quantity": 9,
+            "quantity": 8,
             "optimum_quantity": 4,
             "changes": [
                 {
-                    "quantity_change": 9,
-                    "datetime": "2024-05-10 16:21:59"
+                    "quantity_change": 8,
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "d77d681e-cccd-4f40-8460-d403d7910e36",
+            "id": "H8900-00330",
             "name": "KP: 33/0",
             "quantity": 3,
             "optimum_quantity": 3,
             "changes": [
                 {
                     "quantity_change": 3,
-                    "datetime": "2024-05-10 16:22:22"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "81aecb55-4a5f-4571-957b-571350839695",
+            "id": "H8900-03366",
             "name": "KP: 33/66",
             "quantity": 4,
             "optimum_quantity": 2,
             "changes": [
                 {
                     "quantity_change": 4,
-                    "datetime": "2024-05-10 16:22:53"
-                }
-            ]
-        }
-    ],
-    "CFC": [
-        {
-            "id": "2dc1c898-1704-43bc-9458-aeedb1a01871",
-            "name": "CFC: Future Yellow",
-            "quantity": 2,
-            "optimum_quantity": 3,
-            "changes": [
-                {
-                    "quantity_change": 2,
-                    "datetime": "2024-05-09 17:43:24"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "8e9a4b57-d1c4-4f28-ab8a-0a8397346aae",
-            "name": "CFC: High Magenta",
-            "quantity": 2,
-            "optimum_quantity": 2,
-            "changes": [
-                {
-                    "quantity_change": 2,
-                    "datetime": "2024-05-09 17:43:43"
-                }
-            ]
-        },
-        {
-            "id": "6e02e0d0-4508-40b8-98ba-d6eb48655dc9",
-            "name": "CFC: Hyper Coral",
-            "quantity": 2,
-            "optimum_quantity": 2,
-            "changes": [
-                {
-                    "quantity_change": 2,
-                    "datetime": "2024-05-09 17:44:03"
-                }
-            ]
-        },
-        {
-            "id": "bad3f615-078e-4a44-9028-278bddee7788",
-            "name": "CFC: Infinite Orange",
-            "quantity": 2,
-            "optimum_quantity": 2,
-            "changes": [
-                {
-                    "quantity_change": 2,
-                    "datetime": "2024-05-09 17:44:20"
-                }
-            ]
-        },
-        {
-            "id": "03de247d-5692-47a8-be01-36ba0512fbbf",
-            "name": "CFC: Neverseen Green",
-            "quantity": 5,
-            "optimum_quantity": 2,
-            "changes": [
-                {
-                    "quantity_change": 5,
-                    "datetime": "2024-05-09 17:44:44"
-                }
-            ]
-        },
-        {
-            "id": "2ac3ea96-8ba6-4aaf-9811-eea8c253610a",
-            "name": "CFC: New Blue",
-            "quantity": 2,
-            "optimum_quantity": 2,
-            "changes": [
-                {
-                    "quantity_change": 2,
-                    "datetime": "2024-05-09 17:44:59"
-                }
-            ]
-        },
-        {
-            "id": "215072d0-0196-44e7-8be3-64a5cd312519",
-            "name": "CFC: Next Red",
-            "quantity": 4,
-            "optimum_quantity": 2,
-            "changes": [
-                {
-                    "quantity_change": 4,
-                    "datetime": "2024-05-09 17:45:15"
-                }
-            ]
-        },
-        {
-            "id": "da15a8ba-0c54-42b2-a024-5c746a592b61",
-            "name": "CFC: Nu-Dist Pink",
-            "quantity": 3,
-            "optimum_quantity": 3,
-            "changes": [
-                {
-                    "quantity_change": 3,
-                    "datetime": "2024-05-09 17:45:32"
-                }
-            ]
-        },
-        {
-            "id": "d01c8f22-7474-4b6e-943b-c793d617b75b",
-            "name": "CFC: Pure Violet",
-            "quantity": 3,
-            "optimum_quantity": 2,
-            "changes": [
-                {
-                    "quantity_change": 3,
-                    "datetime": "2024-05-09 17:45:47"
-                }
-            ]
-        },
-        {
-            "id": "f5d63cf8-eaeb-4a8b-af9d-1aef8f5a62e8",
-            "name": "CFC: Super Petrol",
-            "quantity": 3,
-            "optimum_quantity": 2,
-            "changes": [
-                {
-                    "quantity_change": 3,
-                    "datetime": "2024-05-09 17:46:05"
-                }
-            ]
-        },
-        {
-            "id": "3ef4fb6b-5be8-4f3d-9375-7e9f03b2cef9",
-            "name": "CFC: Tomorrow Clear",
+            "id": "H8900-00040",
+            "name": "KP: 4/0",
             "quantity": 4,
             "optimum_quantity": 4,
             "changes": [
                 {
                     "quantity_change": 4,
-                    "datetime": "2024-05-09 17:46:25"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "080946c4-7205-4d2f-b7f0-bd52500503a9",
-            "name": "CFC: Tonight Dusk",
+            "id": "H8900-00407",
+            "name": "KP: 4/07",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00043",
+            "name": "KP: 4/3",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00471",
+            "name": "KP: 4/71",
+            "quantity": 3,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00475",
+            "name": "KP: 4/75",
+            "quantity": 4,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00477",
+            "name": "KP: 4/77",
+            "quantity": 3,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00482",
+            "name": "KP: 4/82",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00440",
+            "name": "KP: 44/0",
+            "quantity": 2,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-04402",
+            "name": "KP: 44/02",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-04444",
+            "name": "KP: 44/44",
+            "quantity": 4,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-04465",
+            "name": "KP: 44/65",
+            "quantity": 4,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00050",
+            "name": "KP: 5/0",
+            "quantity": 3,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00051",
+            "name": "KP: 5/1",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00518",
+            "name": "KP: 5/18",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00052",
+            "name": "KP: 5/2",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00537",
+            "name": "KP: 5/37",
+            "quantity": 3,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00541",
+            "name": "KP: 5/41",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00543",
+            "name": "KP: 5/43",
+            "quantity": 4,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00055",
+            "name": "KP: 5/5",
+            "quantity": 4,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00571",
+            "name": "KP: 5/71",
+            "quantity": 0,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 0,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00573",
+            "name": "KP: 5/73",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00575",
+            "name": "KP: 5/75",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00577",
+            "name": "KP: 5/77",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00582",
+            "name": "KP: 5/82",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00550",
+            "name": "KP: 55/0",
+            "quantity": 3,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-05502",
+            "name": "KP: 55/02",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-05546",
+            "name": "KP: 55/46",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-05565",
+            "name": "KP: 55/65",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-05566",
+            "name": "KP: 55/66",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00060",
+            "name": "KP: 6/0",
+            "quantity": 6,
+            "optimum_quantity": 6,
+            "changes": [
+                {
+                    "quantity_change": 6,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00600",
+            "name": "KP: 6/00",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00607",
+            "name": "KP: 6/07",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00061",
+            "name": "KP: 6/1",
+            "quantity": 4,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00063",
+            "name": "KP: 6/3",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00634",
+            "name": "KP: 6/34",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00641",
+            "name": "KP: 6/41",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00643",
+            "name": "KP: 6/43",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00645",
+            "name": "KP: 6/45",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00065",
+            "name": "KP: 6/5",
+            "quantity": 3,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00067",
+            "name": "KP: 6/7",
+            "quantity": 4,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00671",
+            "name": "KP: 6/71",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00673",
+            "name": "KP: 6/73",
+            "quantity": 1,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 1,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00674",
+            "name": "KP: 6/74",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00675",
+            "name": "KP: 6/75",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00677",
+            "name": "KP: 6/77",
+            "quantity": 4,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00691",
+            "name": "KP: 6/91",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00697",
+            "name": "KP: 6/97",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00660",
+            "name": "KP: 66/0",
+            "quantity": 3,
+            "optimum_quantity": 7,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-06602",
+            "name": "KP: 66/02",
+            "quantity": 3,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-06644",
+            "name": "KP: 66/44",
+            "quantity": 3,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-06646",
+            "name": "KP: 66/46",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-06656",
+            "name": "KP: 66/56",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00070",
+            "name": "KP: 7/0",
+            "quantity": 5,
+            "optimum_quantity": 6,
+            "changes": [
+                {
+                    "quantity_change": 5,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00700",
+            "name": "KP: 7/00",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00703",
+            "name": "KP: 7/03",
+            "quantity": 3,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00707",
+            "name": "KP: 7/07",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00071",
+            "name": "KP: 7/1",
+            "quantity": 4,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00717",
+            "name": "KP: 7/17",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00718",
+            "name": "KP: 7/18",
+            "quantity": 4,
+            "optimum_quantity": 5,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00073",
+            "name": "KP: 7/3",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00731",
+            "name": "KP: 7/31",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00734",
+            "name": "KP: 7/34",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00736",
+            "name": "KP: 7/36",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00737",
+            "name": "KP: 7/37",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00738",
+            "name": "KP: 7/38",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00743",
+            "name": "KP: 7/43",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00747",
+            "name": "KP: 7/47",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00077",
+            "name": "KP: 7/7",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00773",
+            "name": "KP: 7/73",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00775",
+            "name": "KP: 7/75",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00777",
+            "name": "KP: 7/77",
+            "quantity": 0,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 0,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00770",
+            "name": "KP: 77/0",
+            "quantity": 0,
+            "optimum_quantity": 7,
+            "changes": [
+                {
+                    "quantity_change": 0,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-07702",
+            "name": "KP: 77/02",
+            "quantity": 2,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-07744",
+            "name": "KP: 77/44",
+            "quantity": 0,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 0,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-07746",
+            "name": "KP: 77/46",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00080",
+            "name": "KP: 8/0",
+            "quantity": 2,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00800",
+            "name": "KP: 8/00",
+            "quantity": 3,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00801",
+            "name": "KP: 8/01",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00803",
+            "name": "KP: 8/03",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00807",
+            "name": "KP: 8/07",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00081",
+            "name": "KP: 8/1",
+            "quantity": 4,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00083",
+            "name": "KP: 8/3",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00834",
+            "name": "KP: 8/34",
+            "quantity": 3,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00838",
+            "name": "KP: 8/38",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00841",
+            "name": "KP: 8/41",
+            "quantity": 3,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00843",
+            "name": "KP: 8/43",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00845",
+            "name": "KP: 8/45",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00087",
+            "name": "KP: 8/7",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00871",
+            "name": "KP: 8/71",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00873",
+            "name": "KP: 8/73",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00874",
+            "name": "KP: 8/74",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00896",
+            "name": "KP: 8/96",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00897",
+            "name": "KP: 8/97",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00880",
+            "name": "KP: 88/0",
+            "quantity": 5,
+            "optimum_quantity": 6,
+            "changes": [
+                {
+                    "quantity_change": 5,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-08802",
+            "name": "KP: 88/02",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00090",
+            "name": "KP: 9/0",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00903",
+            "name": "KP: 9/03",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00904",
+            "name": "KP: 9/04",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00091",
+            "name": "KP: 9/1",
+            "quantity": 3,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00916",
+            "name": "KP: 9/16",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00917",
+            "name": "KP: 9/17",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00093",
+            "name": "KP: 9/3",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00931",
+            "name": "KP: 9/31",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00938",
+            "name": "KP: 9/38",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00097",
+            "name": "KP: 9/7",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00973",
+            "name": "KP: 9/73",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00098",
+            "name": "KP: 9/8",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00981",
+            "name": "KP: 9/81",
+            "quantity": 2,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00990",
+            "name": "KP: 99/0",
+            "quantity": 4,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-09944",
+            "name": "KP: 99/44",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-00000",
+            "name": "KPSM: 0/00",
+            "quantity": 4,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-01100",
+            "name": "KPSM: 0/11",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-02800",
+            "name": "KPSM: 0/28",
+            "quantity": 2,
+            "optimum_quantity": 1,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-03000",
+            "name": "KPSM: 0/30",
+            "quantity": 3,
+            "optimum_quantity": 1,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-03300",
+            "name": "KPSM: 0/33",
+            "quantity": 3,
+            "optimum_quantity": 1,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-04300",
+            "name": "KPSM: 0/43",
+            "quantity": 1,
+            "optimum_quantity": 1,
+            "changes": [
+                {
+                    "quantity_change": 1,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-04400",
+            "name": "KPSM: 0/44",
+            "quantity": 3,
+            "optimum_quantity": 1,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-06500",
+            "name": "KPSM: 0/65",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-06600",
+            "name": "KPSM: 0/66",
+            "quantity": 2,
+            "optimum_quantity": 1,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8900-08800",
+            "name": "KPSM: 0/88",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        }
+    ],
+    "CT": [
+        {
+            "id": "H7916-00100",
+            "name": "CT: 10/0",
+            "quantity": 4,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-01034",
+            "name": "CT: 10/34",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00106",
+            "name": "CT: 10/6",
+            "quantity": 4,
+            "optimum_quantity": 6,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-01081",
+            "name": "CT: 10/81",
+            "quantity": 3,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00020",
+            "name": "CT: 2/0",
+            "quantity": 4,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00028",
+            "name": "CT: 2/8",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00030",
+            "name": "CT: 3/0",
+            "quantity": 3,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00366",
+            "name": "CT: 3/66",
+            "quantity": 4,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00040",
+            "name": "CT: 4/0",
+            "quantity": 5,
+            "optimum_quantity": 5,
+            "changes": [
+                {
+                    "quantity_change": 5,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00457",
+            "name": "CT: 4/57",
+            "quantity": 4,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00046",
+            "name": "CT: 4/6",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00471",
+            "name": "CT: 4/71",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-04465",
+            "name": "CT: 44/65",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00050",
+            "name": "CT: 5/0",
+            "quantity": 3,
+            "optimum_quantity": 5,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00051",
+            "name": "CT: 5/1",
+            "quantity": 3,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00053",
+            "name": "CT: 5/3",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00537",
+            "name": "CT: 5/37",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00054",
+            "name": "CT: 5/4",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00055",
+            "name": "CT: 5/5",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00566",
+            "name": "CT: 5/66",
+            "quantity": 4,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00573",
+            "name": "CT: 5/73",
+            "quantity": 2,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00575",
+            "name": "CT: 5/75",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00597",
+            "name": "CT: 5/97",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-05554",
+            "name": "CT: 55/54",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-05565",
+            "name": "CT: 55/65",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00060",
+            "name": "CT: 6/0",
+            "quantity": 7,
+            "optimum_quantity": 9,
+            "changes": [
+                {
+                    "quantity_change": 7,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00063",
+            "name": "CT: 6/3",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00635",
+            "name": "CT: 6/35",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00637",
+            "name": "CT: 6/37",
+            "quantity": 2,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00064",
+            "name": "CT: 6/4",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00647",
+            "name": "CT: 6/47",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00067",
+            "name": "CT: 6/7",
+            "quantity": 4,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00671",
+            "name": "CT: 6/71",
+            "quantity": 4,
+            "optimum_quantity": 5,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00673",
+            "name": "CT: 6/73",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00675",
+            "name": "CT: 6/75",
+            "quantity": 4,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-06644",
+            "name": "CT: 66/44",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-06645",
+            "name": "CT: 66/45",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00070",
+            "name": "CT: 7/0",
+            "quantity": 6,
+            "optimum_quantity": 10,
+            "changes": [
+                {
+                    "quantity_change": 6,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00703",
+            "name": "CT: 7/03",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00071",
+            "name": "CT: 7/1",
+            "quantity": 3,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00073",
+            "name": "CT: 7/3",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00074",
+            "name": "CT: 7/4",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00743",
+            "name": "CT: 7/43",
+            "quantity": 3,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00747",
+            "name": "CT: 7/47",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00077",
+            "name": "CT: 7/7",
+            "quantity": 2,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00773",
+            "name": "CT: 7/73",
+            "quantity": 2,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00775",
+            "name": "CT: 7/75",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00786",
+            "name": "CT: 7/86",
+            "quantity": 3,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00789",
+            "name": "CT: 7/89",
+            "quantity": 4,
+            "optimum_quantity": 5,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00797",
+            "name": "CT: 7/97",
+            "quantity": 4,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-07745",
+            "name": "CT: 77/45",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00080",
+            "name": "CT: 8/0",
+            "quantity": 5,
+            "optimum_quantity": 8,
+            "changes": [
+                {
+                    "quantity_change": 5,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00835",
+            "name": "CT: 8/35",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00838",
+            "name": "CT: 8/38",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00841",
+            "name": "CT: 8/41",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00843",
+            "name": "CT: 8/43",
+            "quantity": 3,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00871",
+            "name": "CT: 8/71",
+            "quantity": 4,
+            "optimum_quantity": 6,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00873",
+            "name": "CT: 8/73",
+            "quantity": 4,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00881",
+            "name": "CT: 8/81",
+            "quantity": 4,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00901",
+            "name": "CT: 9/01",
+            "quantity": 2,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00903",
+            "name": "CT: 9/03",
+            "quantity": 3,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00916",
+            "name": "CT: 9/16",
+            "quantity": 5,
+            "optimum_quantity": 8,
+            "changes": [
+                {
+                    "quantity_change": 5,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00936",
+            "name": "CT: 9/36",
+            "quantity": 3,
+            "optimum_quantity": 5,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00973",
+            "name": "CT: 9/73",
+            "quantity": 3,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00975",
+            "name": "CT: 9/75",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00986",
+            "name": "CT: 9/86",
+            "quantity": 3,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00996",
+            "name": "CT: 9/96",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-00997",
+            "name": "CT: 9/97",
+            "quantity": 3,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7912-04407",
+            "name": "CTP: 44/07",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7912-05507",
+            "name": "CTP: 55/07",
+            "quantity": 3,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7912-06607",
+            "name": "CTP: 66/07",
+            "quantity": 6,
+            "optimum_quantity": 6,
+            "changes": [
+                {
+                    "quantity_change": 6,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7912-07707",
+            "name": "CTP: 77/07",
+            "quantity": 4,
+            "optimum_quantity": 6,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7912-08807",
+            "name": "CTP: 88/07",
+            "quantity": 4,
+            "optimum_quantity": 5,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-03400",
+            "name": "CTSM: 0/34",
+            "quantity": 2,
+            "optimum_quantity": 1,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-04500",
+            "name": "CTSM: 0/45",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-05600",
+            "name": "CTSM: 0/56",
+            "quantity": 2,
+            "optimum_quantity": 1,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-06800",
+            "name": "CTSM: 0/68",
+            "quantity": 3,
+            "optimum_quantity": 1,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7916-08800",
+            "name": "CTSM: 0/88",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        }
+    ],
+    "IC": [
+        {
+            "id": "H7910-00010",
+            "name": "IC: 10/",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-01005",
+            "name": "IC: 10/05",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00101",
+            "name": "IC: 10/1",
+            "quantity": 1,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 1,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-01036",
+            "name": "IC: 10/36",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-01038",
+            "name": "IC: 10/38",
+            "quantity": 3,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-01069",
+            "name": "IC: 10/69",
+            "quantity": 2,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-01081",
+            "name": "IC: 10/81",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-01093",
+            "name": "IC: 10/93",
+            "quantity": 1,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 1,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00004",
+            "name": "IC: 4/",
+            "quantity": 1,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 1,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00005",
+            "name": "IC: 5/",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00502",
+            "name": "IC: 5/02",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00535",
+            "name": "IC: 5/35",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00543",
+            "name": "IC: 5/43",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00057",
+            "name": "IC: 5/7",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00581",
+            "name": "IC: 5/81",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00006",
+            "name": "IC: 6/",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00616",
+            "name": "IC: 6/16",
+            "quantity": 5,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 5,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00619",
+            "name": "IC: 6/19",
             "quantity": 6,
             "optimum_quantity": 2,
             "changes": [
                 {
                     "quantity_change": 6,
-                    "datetime": "2024-05-09 17:46:41"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "dfd50f07-bace-4941-8e9f-fc9847424360",
-            "name": "CFC: Uber Gold",
-            "quantity": 4,
+            "id": "H7910-00637",
+            "name": "IC: 6/37",
+            "quantity": 3,
             "optimum_quantity": 2,
             "changes": [
                 {
-                    "quantity_change": 4,
-                    "datetime": "2024-05-09 17:47:33"
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "336190cd-4b22-45b5-8022-d627599cb5a8",
-            "name": "CFC: Ultra Purple",
-            "quantity": 4,
+            "id": "H7910-00676",
+            "name": "IC: 6/76",
+            "quantity": 2,
             "optimum_quantity": 2,
             "changes": [
                 {
-                    "quantity_change": 4,
-                    "datetime": "2024-05-09 17:47:49"
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "7ff72185-899e-4618-9c53-5a2cf03c2976",
-            "name": "CFC: Vintage Brush",
+            "id": "H7910-00007",
+            "name": "IC: 7/",
             "quantity": 3,
             "optimum_quantity": 3,
             "changes": [
                 {
                     "quantity_change": 3,
-                    "datetime": "2024-05-09 17:48:05"
-                }
-            ]
-        }
-    ],
-    "CR": [
-        {
-            "id": "c70cf15f-dec4-402b-8dbc-8365ec91d1d0",
-            "name": "CR: Activator Liquid 500ml",
-            "quantity": 4,
-            "optimum_quantity": 4,
-            "changes": [
-                {
-                    "quantity_change": 4,
-                    "datetime": "2024-05-09 18:07:04"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "eaadd17c-4a7c-4fbf-9c44-21280f6188b5",
-            "name": "CR: Crystal Powder",
-            "quantity": 5,
-            "optimum_quantity": 4,
-            "changes": [
-                {
-                    "quantity_change": 5,
-                    "datetime": "2024-05-09 18:06:40"
-                }
-            ]
-        }
-    ],
-    "TG": [
-        {
-            "id": "97d436dd-5928-43ff-95bc-02f646a7f3bc",
-            "name": "TG: Graphite Shimmer [Dark]",
+            "id": "H7910-00073",
+            "name": "IC: 7/3",
             "quantity": 5,
             "optimum_quantity": 2,
             "changes": [
                 {
                     "quantity_change": 5,
-                    "datetime": "2024-05-10 15:58:04"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "c7c5681a-e14a-489c-b259-c0e0474963e0",
-            "name": "TG: Graphite Shimmer [Light]",
-            "quantity": 3,
-            "optimum_quantity": 2,
-            "changes": [
-                {
-                    "quantity_change": 3,
-                    "datetime": "2024-05-10 15:58:32"
-                }
-            ]
-        },
-        {
-            "id": "d3920f44-26a1-4dd2-bafb-afb6728a0528",
-            "name": "TG: Graphite Shimmer [Medium]",
-            "quantity": 3,
-            "optimum_quantity": 2,
-            "changes": [
-                {
-                    "quantity_change": 3,
-                    "datetime": "2024-05-10 15:58:57"
-                }
-            ]
-        },
-        {
-            "id": "cca78b29-6f22-4a30-b6c6-1a145d2c98f2",
-            "name": "TG: No.1 Activator",
-            "quantity": 17,
-            "optimum_quantity": 2,
-            "changes": [
-                {
-                    "quantity_change": 17,
-                    "datetime": "2024-05-10 15:57:07"
-                }
-            ]
-        },
-        {
-            "id": "85888ab1-4d26-4829-959a-c038d43387f6",
-            "name": "TG: No.2 Treatment",
-            "quantity": 11,
-            "optimum_quantity": 2,
-            "changes": [
-                {
-                    "quantity_change": 11,
-                    "datetime": "2024-05-10 15:57:31"
-                }
-            ]
-        },
-        {
-            "id": "35d49c2f-4e89-41f8-9aea-a2333b485855",
-            "name": "TG: Pearl Mist [Dark]",
+            "id": "H7910-00731",
+            "name": "IC: 7/31",
             "quantity": 4,
             "optimum_quantity": 2,
             "changes": [
                 {
                     "quantity_change": 4,
-                    "datetime": "2024-05-10 15:59:17"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "da8426de-ee2a-4c71-a890-2741ae8be541",
-            "name": "TG: Pearl Mist [Light]",
+            "id": "H7910-00735",
+            "name": "IC: 7/35",
             "quantity": 2,
             "optimum_quantity": 2,
             "changes": [
                 {
                     "quantity_change": 2,
-                    "datetime": "2024-05-10 15:59:38"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "c59996f3-5447-4ad6-aa70-3a5cf3787ecc",
-            "name": "TG: Steel Glow [Dark]",
+            "id": "H7910-00742",
+            "name": "IC: 7/42",
             "quantity": 2,
             "optimum_quantity": 2,
             "changes": [
                 {
                     "quantity_change": 2,
-                    "datetime": "2024-05-10 16:00:05"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "e7241825-c787-4667-afc4-56846c935c52",
-            "name": "TG: Steel Glow [Medium]",
+            "id": "H7910-00743",
+            "name": "IC: 7/43",
             "quantity": 2,
             "optimum_quantity": 2,
             "changes": [
                 {
                     "quantity_change": 2,
-                    "datetime": "2024-05-10 16:00:25"
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00077",
+            "name": "IC: 7/7",
+            "quantity": 6,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 6,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00775",
+            "name": "IC: 7/75",
+            "quantity": 1,
+            "optimum_quantity": 1,
+            "changes": [
+                {
+                    "quantity_change": 1,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00781",
+            "name": "IC: 7/81",
+            "quantity": 1,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 1,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00008",
+            "name": "IC: 8/",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00805",
+            "name": "IC: 8/05",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00081",
+            "name": "IC: 8/1",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00813",
+            "name": "IC: 8/13",
+            "quantity": 3,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00836",
+            "name": "IC: 8/36",
+            "quantity": 1,
+            "optimum_quantity": 1,
+            "changes": [
+                {
+                    "quantity_change": 1,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00837",
+            "name": "IC: 8/37",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00838",
+            "name": "IC: 8/38",
+            "quantity": 7,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 7,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00869",
+            "name": "IC: 8/69",
+            "quantity": 1,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 1,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00893",
+            "name": "IC: 8/93",
+            "quantity": 0,
+            "optimum_quantity": 1,
+            "changes": [
+                {
+                    "quantity_change": 0,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00009",
+            "name": "IC: 9/",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00903",
+            "name": "IC: 9/03",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00919",
+            "name": "IC: 9/19",
+            "quantity": 3,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00937",
+            "name": "IC: 9/37",
+            "quantity": 1,
+            "optimum_quantity": 1,
+            "changes": [
+                {
+                    "quantity_change": 1,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00943",
+            "name": "IC: 9/43",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00959",
+            "name": "IC: 9/59",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00960",
+            "name": "IC: 9/60",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H7910-00097",
+            "name": "IC: 9/7",
+            "quantity": 3,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        }
+    ],
+    "SF": [
+        {
+            "id": "(H8904-00000)",
+            "name": "SF: 00/00 500ml",
+            "quantity": 0,
+            "optimum_quantity": 1,
+            "changes": [
+                {
+                    "quantity_change": 0,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-06600",
+            "name": "SF: 00/66",
+            "quantity": 4,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00089",
+            "name": "SF: 00/89",
+            "quantity": 7,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 7,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00100",
+            "name": "SF: 010/0",
+            "quantity": 4,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00106",
+            "name": "SF: 010/6",
+            "quantity": 4,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00108",
+            "name": "SF: 010/8",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00040",
+            "name": "SF: 04/0",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00407",
+            "name": "SF: 04/07",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00412",
+            "name": "SF: 04/12",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00465",
+            "name": "SF: 04/65",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00537",
+            "name": "SF: 05/37",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00543",
+            "name": "SF: 05/43",
+            "quantity": 4,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00598",
+            "name": "SF: 05/98",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00060",
+            "name": "SF: 06/0",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00602",
+            "name": "SF: 06/02",
+            "quantity": 2,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00607",
+            "name": "SF: 06/07",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00643",
+            "name": "SF: 06/43",
+            "quantity": 5,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 5,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00066",
+            "name": "SF: 06/6",
+            "quantity": 5,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 5,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00671",
+            "name": "SF: 06/71",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00673",
+            "name": "SF: 06/73",
+            "quantity": 2,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00712",
+            "name": "SF: 07/12",
+            "quantity": 1,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 1,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00713",
+            "name": "SF: 07/13",
+            "quantity": 4,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00734",
+            "name": "SF: 07/34",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00759",
+            "name": "SF: 07/59",
+            "quantity": 3,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00775",
+            "name": "SF: 07/75",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00781",
+            "name": "SF: 07/81",
+            "quantity": 4,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00080",
+            "name": "SF: 08/0",
+            "quantity": 3,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00834",
+            "name": "SF: 08/34",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00838",
+            "name": "SF: 08/38",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00088",
+            "name": "SF: 08/8",
+            "quantity": 4,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00898",
+            "name": "SF: 08/98",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00902",
+            "name": "SF: 09/02",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00905",
+            "name": "SF: 09/05",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00907",
+            "name": "SF: 09/07",
+            "quantity": 2,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00913",
+            "name": "SF: 09/13",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00936",
+            "name": "SF: 09/36",
+            "quantity": 2,
+            "optimum_quantity": 5,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00961",
+            "name": "SF: 09/61",
+            "quantity": 3,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00965",
+            "name": "SF: 09/65",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00973",
+            "name": "SF: 09/73",
+            "quantity": 1,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 1,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8904-00981",
+            "name": "SF: 09/81",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         }
     ],
     "DEV": [
         {
-            "id": "a2ebb57a-1bdd-4274-9943-02ac07b3c879",
-            "name": "DEV: Color Touch Emulsion 1.9% 1000ml",
-            "quantity": 7,
+            "id": "H1256",
+            "name": "DEV: Colour Touch Emulsion 1.9% 1000ml",
+            "quantity": 3,
             "optimum_quantity": 7,
             "changes": [
                 {
-                    "quantity_change": 7,
-                    "datetime": "2024-05-11 10:05:34"
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "789a3aaa-ae54-4fd3-b5d0-dac8ed1a8b2f",
-            "name": "DEV: Color Touch Emulsion 4% 1000ml",
-            "quantity": 3,
+            "id": "H1255",
+            "name": "DEV: Colour Touch Emulsion 4% 1000ml",
+            "quantity": 2,
             "optimum_quantity": 3,
             "changes": [
                 {
-                    "quantity_change": 3,
-                    "datetime": "2024-05-11 10:05:59"
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "12c40c94-317c-4682-a139-5e8c86f13fc9",
+            "id": "H7914",
             "name": "DEV: Colour Touch Plus Emulsion 4% 1000ml",
-            "quantity": 2,
+            "quantity": 1,
             "optimum_quantity": 2,
             "changes": [
                 {
-                    "quantity_change": 2,
-                    "datetime": "2024-05-11 10:06:26"
+                    "quantity_change": 1,
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "ca1ccc89-b6b0-4e71-841b-ed72234a257e",
-            "name": "DEV: Shinefinity for bottle",
-            "quantity": 2,
+            "id": "H9283",
+            "name": "DEV: Shinefinity 2% bottle 1000ml",
+            "quantity": 1,
             "optimum_quantity": 2,
             "changes": [
                 {
-                    "quantity_change": 2,
-                    "datetime": "2024-05-11 10:08:17"
+                    "quantity_change": 1,
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "7ea13a36-f4d7-4b4e-ac6c-64e83749bcf5",
-            "name": "DEV: Shinefinity for brush & bowl",
+            "id": "H9282",
+            "name": "DEV: Shinefinity 2% bowl&brush 1000ml",
             "quantity": 1,
             "optimum_quantity": 1,
             "changes": [
                 {
                     "quantity_change": 1,
-                    "datetime": "2024-05-11 10:08:40"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "e5b5bb4a-9dbf-438a-b932-ab6f2aa59f36",
+            "id": "H8906",
             "name": "DEV: Welloxon 12% 1000ml",
             "quantity": 2,
             "optimum_quantity": 2,
             "changes": [
                 {
                     "quantity_change": 2,
-                    "datetime": "2024-05-11 10:09:06"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "c4489bdd-42dc-4736-9eea-951324950132",
+            "id": "H8904",
             "name": "DEV: Welloxon 4% 1000ml",
             "quantity": 2,
             "optimum_quantity": 2,
             "changes": [
                 {
                     "quantity_change": 2,
-                    "datetime": "2024-05-11 10:09:25"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "caa57e87-21ca-446e-bf62-712ff2824336",
+            "id": "H8903",
             "name": "DEV: Welloxon 6% 1000ml",
-            "quantity": 6,
+            "quantity": 3,
             "optimum_quantity": 6,
             "changes": [
                 {
-                    "quantity_change": 6,
-                    "datetime": "2024-05-11 10:09:44"
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "848dfbfd-86b9-46cf-8ec5-ce2153402e0c",
+            "id": "H8905",
             "name": "DEV: Welloxon 9% 1000ml",
-            "quantity": 2,
+            "quantity": 1,
             "optimum_quantity": 2,
             "changes": [
                 {
-                    "quantity_change": 2,
-                    "datetime": "2024-05-11 10:10:03"
+                    "quantity_change": 1,
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "c0354c40-7431-45c0-98cb-cddb64be0e24",
-            "name": "DEV: Welloxon Pastel 1000ml",
+            "id": "H8902",
+            "name": "DEV: Welloxon Pastel 1.9% 1000ml",
+            "quantity": 1,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 1,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        }
+    ],
+    "CFC": [
+        {
+            "id": "H8070-00012",
+            "name": "CFC: Future Yellow",
+            "quantity": 2,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8070-00007",
+            "name": "CFC: High Magenta",
             "quantity": 2,
             "optimum_quantity": 2,
             "changes": [
                 {
                     "quantity_change": 2,
-                    "datetime": "2024-05-11 10:10:21"
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8070-00009",
+            "name": "CFC: Hyper Coral",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8070-00011",
+            "name": "CFC: Infinite Orange",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8070-00003",
+            "name": "CFC: Neverseen Green",
+            "quantity": 5,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 5,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8070-00002",
+            "name": "CFC: New Blue",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8070-00008",
+            "name": "CFC: Next Red",
+            "quantity": 4,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8070-00006",
+            "name": "CFC: Nudist Pink",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8070-00005",
+            "name": "CFC: Pure Violet",
+            "quantity": 3,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8070-00013",
+            "name": "CFC: Super Petrol",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8070-00001",
+            "name": "CFC: Tomorrow Clear",
+            "quantity": 4,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8552",
+            "name": "CFC: Tonight Dusk",
+            "quantity": 6,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 6,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8070-00010",
+            "name": "CFC: Uber Gold",
+            "quantity": 4,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8553",
+            "name": "CFC: Vintage Brush",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        }
+    ],
+    "TG": [
+        {
+            "id": "H9158",
+            "name": "TG: Graphite Shimmer [Dark]",
+            "quantity": 5,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 5,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H9156",
+            "name": "TG: Graphite Shimmer [Light]",
+            "quantity": 3,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H9157",
+            "name": "TG: Graphite Shimmer [Medium]",
+            "quantity": 3,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H9155",
+            "name": "TG: Pearl Mist [Dark]",
+            "quantity": 4,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H9154",
+            "name": "TG: Pearl Mist [Light]",
+            "quantity": 1,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 1,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H9160",
+            "name": "TG: Steel Glow [Dark]",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H9159",
+            "name": "TG: Steel Glow [Medium]",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H9161",
+            "name": "TGD: No.1 Activator",
+            "quantity": 17,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 17,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H9162",
+            "name": "TGD: No.2 Treatment",
+            "quantity": 11,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 11,
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         }
     ],
     "BL": [
         {
-            "id": "2b2dad43-bcf1-417a-be0a-c217912eb716",
-            "name": "BL: BlondoePlex Bleach",
-            "quantity": 3,
-            "optimum_quantity": 3,
-            "changes": [
-                {
-                    "quantity_change": 3,
-                    "datetime": "2024-05-11 10:17:27"
-                }
-            ]
-        },
-        {
-            "id": "267dfe4e-1a8a-466f-85cb-1898085caefa",
-            "name": "BL: BlondorPlex Cream Toner /16",
-            "quantity": 3,
-            "optimum_quantity": 3,
-            "changes": [
-                {
-                    "quantity_change": 3,
-                    "datetime": "2024-05-11 10:17:53"
-                }
-            ]
-        },
-        {
-            "id": "da56d021-a853-457f-b59c-d3f75535962e",
-            "name": "BL: BlondorPlex Cream Toner /36",
-            "quantity": 3,
-            "optimum_quantity": 3,
-            "changes": [
-                {
-                    "quantity_change": 3,
-                    "datetime": "2024-05-11 10:18:06"
-                }
-            ]
-        },
-        {
-            "id": "e803171f-bdb6-4f54-af15-469c9895061e",
-            "name": "BL: BlondorPlex Cream Toner /81",
-            "quantity": 3,
-            "optimum_quantity": 3,
-            "changes": [
-                {
-                    "quantity_change": 3,
-                    "datetime": "2024-05-11 10:18:20"
-                }
-            ]
-        },
-        {
-            "id": "c2d064b3-ff2a-4041-bb13-67c4fc42f0d3",
-            "name": "BL: BlondorPlex Cream Toner /86",
+            "id": "H1358",
+            "name": "BL: BlondorPlex Bleach Powder 800g",
             "quantity": 2,
-            "optimum_quantity": 1,
+            "optimum_quantity": 3,
             "changes": [
                 {
                     "quantity_change": 2,
-                    "datetime": "2024-05-11 10:18:34"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "65dff85d-e7f5-45ca-8188-1e3efd266f17",
-            "name": "BL: BlondorPlex Cream Toner /96",
-            "quantity": 3,
-            "optimum_quantity": 3,
-            "changes": [
-                {
-                    "quantity_change": 3,
-                    "datetime": "2024-05-11 10:18:47"
-                }
-            ]
-        },
-        {
-            "id": "df9945af-b528-4536-a594-0b5553f31934",
-            "name": "BL: Freelights 12%",
+            "id": "H7334",
+            "name": "BL: Freelights 12% 1000ml",
             "quantity": 5,
             "optimum_quantity": 1,
             "changes": [
                 {
                     "quantity_change": 5,
-                    "datetime": "2024-05-11 10:14:23"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "15549cb3-a9cb-4249-b441-6cfa10f3c8fb",
-            "name": "BL: Freelights 6%",
+            "id": "H7332",
+            "name": "BL: Freelights 6% 1000ml",
             "quantity": 4,
             "optimum_quantity": 1,
             "changes": [
                 {
                     "quantity_change": 4,
-                    "datetime": "2024-05-11 10:14:53"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "addaf246-2936-41d5-aad7-5239480fc72f",
-            "name": "BL: Freelights 9%",
+            "id": "H7333",
+            "name": "BL: Freelights 9% 1000ml",
             "quantity": 1,
             "optimum_quantity": 1,
             "changes": [
                 {
                     "quantity_change": 1,
-                    "datetime": "2024-05-11 10:15:16"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "40f5ddfb-da27-4766-8ecd-b1ac3a6f3cdc",
+            "id": "H7331",
             "name": "BL: Freelights Powder",
             "quantity": 3,
             "optimum_quantity": 2,
             "changes": [
                 {
                     "quantity_change": 3,
-                    "datetime": "2024-05-11 10:15:34"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "5fd94f1c-900a-42b3-9726-b4710b3a76ec",
-            "name": "BL: Powder (blue)",
+            "id": "H7836",
+            "name": "BL: Multi Blonde Powder 800g",
             "quantity": 5,
             "optimum_quantity": 1,
             "changes": [
                 {
                     "quantity_change": 5,
-                    "datetime": "2024-05-11 10:16:01"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "9531c294-20ed-48e8-bdf2-66389c307a1a",
+            "id": "H1380",
             "name": "BL: Seal & Care",
             "quantity": 1,
             "optimum_quantity": 1,
             "changes": [
                 {
                     "quantity_change": 1,
-                    "datetime": "2024-05-11 10:16:19"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "3fdf3c6b-2f53-4a8d-971e-c95862bdc0a5",
-            "name": "BL: Soft Blonde Lightening Cream",
+            "id": "H1378",
+            "name": "BL: Soft Blonde Lightening Cream 200g",
             "quantity": 12,
             "optimum_quantity": 2,
             "changes": [
                 {
                     "quantity_change": 12,
-                    "datetime": "2024-05-11 10:16:42"
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         },
         {
-            "id": "63574d9b-9804-4dd7-be56-880e40d92da0",
-            "name": "BL: White Granule",
+            "id": "H1373",
+            "name": "BL: White Granule 500g",
             "quantity": 5,
             "optimum_quantity": 2,
             "changes": [
                 {
                     "quantity_change": 5,
-                    "datetime": "2024-05-11 10:17:05"
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H9551-00016",
+            "name": "BLPT: BlondorPlex Cream Toner /16",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H9551-00036",
+            "name": "BLPT: BlondorPlex Cream Toner /36",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H9551-00081",
+            "name": "BLPT: BlondorPlex Cream Toner /81",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H9551-00086",
+            "name": "BLPT: BlondorPlex Cream Toner /86",
+            "quantity": 2,
+            "optimum_quantity": 1,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H9551-00096",
+            "name": "BLPT: BlondorPlex Cream Toner /96",
+            "quantity": 3,
+            "optimum_quantity": 3,
+            "changes": [
+                {
+                    "quantity_change": 3,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        }
+    ],
+    "CR": [
+        {
+            "id": "H8056",
+            "name": "CR: Activator Liquid 500ml",
+            "quantity": 4,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 4,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H8057",
+            "name": "CR: Crystal Powder",
+            "quantity": 5,
+            "optimum_quantity": 4,
+            "changes": [
+                {
+                    "quantity_change": 5,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        }
+    ],
+    "AC": [
+        {
+            "id": "H1315",
+            "name": "AC: Gold and White Wraps x 100",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H0995",
+            "name": "AC: Illuminage Clear Sheets x 100",
+            "quantity": 2,
+            "optimum_quantity": 2,
+            "changes": [
+                {
+                    "quantity_change": 2,
+                    "datetime": "2024-05-12 18:57:35"
+                }
+            ]
+        },
+        {
+            "id": "H10100",
+            "name": "AC: Post Colour Service Treatment 1000ml",
+            "quantity": 1,
+            "optimum_quantity": 1,
+            "changes": [
+                {
+                    "quantity_change": 1,
+                    "datetime": "2024-05-12 18:57:35"
                 }
             ]
         }
