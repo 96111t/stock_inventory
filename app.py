@@ -1,8 +1,7 @@
 from flask import (Flask, request, jsonify, render_template, flash, redirect,
                    url_for, session, send_file)
 import json
-import os
-import uuid
+from functools import wraps
 from datetime import datetime
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
@@ -18,6 +17,15 @@ USERS_FILE = 'users.json'
 def read_data(file_path):
     with open(file_path, 'r') as file:
         return json.load(file)
+
+def login_required(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if 'username' not in session:
+            flash('Please log in to access this page.', 'warning')
+            return redirect(url_for('login'))
+        return f(*args, **kwargs)
+    return decorated_function
 
 def is_logged_in():
     return 'username' in session
@@ -43,6 +51,7 @@ def index():
     return render_template('login.html')
 
 @app.route('/main')  # This is the new route for the main page
+@login_required
 def main():
     if not is_logged_in():
         # flash('Please log in to access this page.', 'warning')
@@ -92,6 +101,7 @@ def record_change(data, category, product_id, new_quantity):
 #     return render_template('index.html')
 
 @app.route('/add', methods=['GET', 'POST'])
+@login_required
 def add_product():
     if request.method == 'POST':
         data = read_data(DATA_FILE)
@@ -135,6 +145,7 @@ def add_product():
 
 
 @app.route('/stock_take', methods=['GET', 'POST'])
+@login_required
 def stock_take():
     if request.method == 'POST':
         data = read_data(DATA_FILE)
