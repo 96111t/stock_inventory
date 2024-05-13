@@ -22,7 +22,7 @@ app.secret_key = load_secret_key()
 
 # Path to your JSON file
 DATA_FILE = 'inventory.json'
-USERS_FILE = 'users.json'
+USERS_FILE = 'documents/users.json'
 
 def read_data(file_path):
     with open(file_path, 'r') as file:
@@ -48,7 +48,7 @@ def write_data(data):
 
 def log_user_activity(username, action):
     log_entry = f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')} - {username} {action}\n"
-    with open('user_activity_log.txt', 'r+') as log_file:
+    with open('documents/user_activity_log.txt', 'r+') as log_file:
         current_contents = log_file.read()
         log_file.seek(0)  # Move to the start of the file
         log_file.write(log_entry + current_contents)  # Prepend the new log entry
