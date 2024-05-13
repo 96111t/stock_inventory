@@ -9,8 +9,16 @@ from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 from reportlab.lib.colors import red, black
 
+
+def load_secret_key():
+    with open('documents/secret_key.bin', 'rb') as f:
+        return f.read()
+
 app = Flask(__name__)
-app.secret_key = 'stkcon'
+
+# Instead of setting the secret_key directly in the file, we now use an environment variable
+app.secret_key = load_secret_key()
+
 
 # Path to your JSON file
 DATA_FILE = 'inventory.json'
