@@ -2,6 +2,7 @@ from flask import (Flask, request, jsonify, render_template, flash, redirect,
                    url_for, session, send_file, Response)
 import json
 import csv
+import bcrypt
 from io import StringIO
 from functools import wraps
 from datetime import datetime
@@ -53,6 +54,17 @@ def log_user_activity(username, action):
         log_file.seek(0)  # Move to the start of the file
         log_file.write(log_entry + current_contents)  # Prepend the new log entry
 
+
+
+
+# def hash_password(password):
+#     return bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())
+
+def check_password(hashed_password, user_password):
+    return bcrypt.checkpw(user_password.encode('utf-8'), hashed_password)
+
+
+
 @app.route('/')
 def index():
     # if not is_logged_in():
@@ -76,7 +88,7 @@ def login():
         username = request.form['username']
         password = request.form['password']
 
-        if username in users and users[username] == password:
+        if username in users and check_password(users[username].encode('utf-8'), password):
             session['username'] = username
             log_user_activity(username, 'logged in')  # Log the login activity
             return redirect(url_for('main'))
